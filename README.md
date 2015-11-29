@@ -20,3 +20,20 @@ From the `asset-application` root dir:
 
     java -jar target/asset-service-1.0-SNAPSHOT.jar server asset-service.yml
 
+
+### Notes
+
+#### Simpler Jackson annotation with Java 8
+
+The @JsonCreator annotation-style is not required with jdk 1.8, see:
+https://manosnikolaidis.wordpress.com/2015/08/25/jackson-without-annotations/
+
+```
+    @JsonCreator
+    public Asset(@JsonProperty("serialNumber") String serialNumber,
+                 @JsonProperty("modelName") String modelName, @JsonProperty("address") Address address) {
+        this.serialNumber = serialNumber;
+        this.modelName = modelName;
+        this.address = address;
+    }
+```

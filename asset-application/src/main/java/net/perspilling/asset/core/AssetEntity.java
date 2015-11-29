@@ -23,14 +23,14 @@ public class AssetEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id; // PK in DB
+    private Long id;
 
     @Length(max = 10)
-    @Column(name = "serialNumber", nullable = false)
+    @Column(nullable = false)
     private String serialNumber; // natural id
 
     @Length(max = 50)
-    @Column(name = "modelName", nullable = false)
+    @Column(nullable = false)
     private String modelName;
 
     @OneToOne( mappedBy = "asset", cascade = {CascadeType.ALL} )
