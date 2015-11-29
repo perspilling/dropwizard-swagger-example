@@ -1,0 +1,67 @@
+#
+# See reference manual: http://www.dropwizard.io/0.9.1/docs/manual/configuration.html
+#
+template: Hello, %s!
+defaultName: Stranger
+
+
+# Avoid using the default 8080 port for RESTFul services
+server:
+  type: simple
+  applicationContextPath: /api
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 9000
+
+
+# Database settings for H2
+#database:
+#  driverClass: org.h2.Driver
+#  user: sa
+#  password: sa
+#  url: jdbc:h2:./target/dw_example
+#  properties:
+#    hibernate.hbm2ddl.auto: create-drop
+
+database:
+  # the name of your JDBC driver
+  driverClass: org.postgresql.Driver
+
+  # the username
+  user: PerSpilling
+
+  # the password
+  password:
+
+  # the JDBC URL
+  url: jdbc:postgresql://localhost:5432/postgres
+
+  # any properties specific to your JDBC driver:
+  properties:
+    charSet: UTF-8
+    hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate.show_sql: true
+    hibernate.format_sql: true
+    hibernate.default_schema: postgres.public
+    hibernate.hbm2ddl.auto: create-drop
+
+  # the maximum amount of time to wait on an empty pool before throwing an exception
+  maxWaitForConnection: 1s
+
+  # the SQL query to run when validating a connection's liveness
+  validationQuery: "/* MyApplication Health Check */ SELECT 1"
+
+  # the minimum number of connections to keep open
+  minSize: 8
+
+  # the maximum number of connections to keep open
+  maxSize: 32
+
+  # whether or not idle connections should be validated
+  checkConnectionWhileIdle: false
+
+
+# Add resource packages to be scanned by Swagger
+swagger:
+  resourcePackage: net.perspilling.asset.resources

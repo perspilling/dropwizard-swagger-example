@@ -1,0 +1,1491 @@
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=128m; support was removed in 8.0
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for net.perspilling:asset-application:jar:1.0-SNAPSHOT
+[WARNING] 'dependencyManagement.dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: io.dropwizard:dropwizard-hibernate:jar -> duplicate declaration of version ${dropwizard.version} @ net.perspilling:dropwizard-swagger-example:1.0-SNAPSHOT, /Users/PerSpilling/workspace/my-projects/dropwizard-swagger-example/pom.xml, line 66, column 25
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] Using the builder org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder with a thread count of 1
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building asset-application 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ asset-application ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ asset-application ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ asset-application ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ asset-application ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ asset-application ---
+[INFO] Surefire report directory: /Users/PerSpilling/workspace/my-projects/dropwizard-swagger-example/asset-application/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running TestSuite
+Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@2d6a9952
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.353 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ asset-application ---
+[INFO] 
+[INFO] --- maven-shade-plugin:2.3:shade (default) @ asset-application ---
+[INFO] Including net.perspilling:asset-api:jar:1.0-SNAPSHOT in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0 in the shaded jar.
+[INFO] Including org.hibernate:hibernate-validator:jar:5.2.2.Final in the shaded jar.
+[INFO] Including javax.validation:validation-api:jar:1.1.0.Final in the shaded jar.
+[INFO] Including org.jboss.logging:jboss-logging:jar:3.2.1.Final in the shaded jar.
+[INFO] Including com.fasterxml:classmate:jar:1.1.0 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-core:jar:0.9.0 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-util:jar:0.9.0 in the shaded jar.
+[INFO] Including com.google.guava:guava:jar:18.0 in the shaded jar.
+[INFO] Including com.google.code.findbugs:jsr305:jar:3.0.1 in the shaded jar.
+[INFO] Including joda-time:joda-time:jar:2.9 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-jackson:jar:0.9.0 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-core:jar:2.6.3 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.core:jackson-databind:jar:2.6.3 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.datatype:jackson-datatype-jdk7:jar:2.6.3 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.datatype:jackson-datatype-guava:jar:2.6.3 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.6.3 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.datatype:jackson-datatype-joda:jar:2.6.3 in the shaded jar.
+[INFO] Including org.slf4j:slf4j-api:jar:1.7.12 in the shaded jar.
+[INFO] Including ch.qos.logback:logback-classic:jar:1.1.3 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-validation:jar:0.9.0 in the shaded jar.
+[INFO] Including org.glassfish:javax.el:jar:3.0.0 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-configuration:jar:0.9.0 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:jar:2.6.3 in the shaded jar.
+[INFO] Including org.yaml:snakeyaml:jar:1.15 in the shaded jar.
+[INFO] Including org.apache.commons:commons-lang3:jar:3.4 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-logging:jar:0.9.0 in the shaded jar.
+[INFO] Including io.dropwizard.metrics:metrics-logback:jar:3.1.2 in the shaded jar.
+[INFO] Including org.slf4j:jul-to-slf4j:jar:1.7.12 in the shaded jar.
+[INFO] Including ch.qos.logback:logback-core:jar:1.1.3 in the shaded jar.
+[INFO] Including org.slf4j:log4j-over-slf4j:jar:1.7.12 in the shaded jar.
+[INFO] Including org.slf4j:jcl-over-slf4j:jar:1.7.12 in the shaded jar.
+[INFO] Including org.eclipse.jetty:jetty-util:jar:9.2.13.v20150730 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-metrics:jar:0.9.0 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-jersey:jar:0.9.0 in the shaded jar.
+[INFO] Including org.glassfish.jersey.core:jersey-server:jar:2.22.1 in the shaded jar.
+[INFO] Including org.glassfish.jersey.media:jersey-media-jaxb:jar:2.22.1 in the shaded jar.
+[INFO] Including javax.annotation:javax.annotation-api:jar:1.2 in the shaded jar.
+[INFO] Including org.glassfish.jersey.ext:jersey-metainf-services:jar:2.22.1 in the shaded jar.
+[INFO] Including org.glassfish.jersey.ext:jersey-bean-validation:jar:2.22.1 in the shaded jar.
+[INFO] Including io.dropwizard.metrics:metrics-jersey2:jar:3.1.2 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:jar:2.6.3 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:jar:2.6.3 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.module:jackson-module-jaxb-annotations:jar:2.6.3 in the shaded jar.
+[INFO] Including org.glassfish.jersey.containers:jersey-container-servlet:jar:2.22.1 in the shaded jar.
+[INFO] Including org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.22.1 in the shaded jar.
+[INFO] Including org.eclipse.jetty:jetty-server:jar:9.2.13.v20150730 in the shaded jar.
+[INFO] Including javax.servlet:javax.servlet-api:jar:3.1.0 in the shaded jar.
+[INFO] Including org.eclipse.jetty:jetty-io:jar:9.2.13.v20150730 in the shaded jar.
+[INFO] Including org.eclipse.jetty:jetty-webapp:jar:9.2.13.v20150730 in the shaded jar.
+[INFO] Including org.eclipse.jetty:jetty-xml:jar:9.2.13.v20150730 in the shaded jar.
+[INFO] Including org.eclipse.jetty:jetty-continuation:jar:9.2.13.v20150730 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-servlets:jar:0.9.0 in the shaded jar.
+[INFO] Including io.dropwizard.metrics:metrics-annotation:jar:3.1.2 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-jetty:jar:0.9.0 in the shaded jar.
+[INFO] Including io.dropwizard.metrics:metrics-jetty9:jar:3.1.2 in the shaded jar.
+[INFO] Including org.eclipse.jetty:jetty-servlet:jar:9.2.13.v20150730 in the shaded jar.
+[INFO] Including org.eclipse.jetty:jetty-security:jar:9.2.13.v20150730 in the shaded jar.
+[INFO] Including org.eclipse.jetty:jetty-servlets:jar:9.2.13.v20150730 in the shaded jar.
+[INFO] Including org.eclipse.jetty:jetty-http:jar:9.2.13.v20150730 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-lifecycle:jar:0.9.0 in the shaded jar.
+[INFO] Including io.dropwizard.metrics:metrics-core:jar:3.1.2 in the shaded jar.
+[INFO] Including io.dropwizard.metrics:metrics-jvm:jar:3.1.2 in the shaded jar.
+[INFO] Including io.dropwizard.metrics:metrics-servlets:jar:3.1.2 in the shaded jar.
+[INFO] Including io.dropwizard.metrics:metrics-json:jar:3.1.2 in the shaded jar.
+[INFO] Including io.dropwizard.metrics:metrics-healthchecks:jar:3.1.2 in the shaded jar.
+[INFO] Including net.sourceforge.argparse4j:argparse4j:jar:0.6.0 in the shaded jar.
+[INFO] Including org.eclipse.jetty.toolchain.setuid:jetty-setuid-java:jar:1.0.3 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-hibernate:jar:0.9.0 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-db:jar:0.9.0 in the shaded jar.
+[INFO] Including org.apache.tomcat:tomcat-jdbc:jar:8.0.28 in the shaded jar.
+[INFO] Including org.apache.tomcat:tomcat-juli:jar:8.0.28 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.datatype:jackson-datatype-hibernate4:jar:2.6.3 in the shaded jar.
+[INFO] Including org.jadira.usertype:usertype.core:jar:4.0.0.GA in the shaded jar.
+[INFO] Including org.jadira.usertype:usertype.spi:jar:4.0.0.GA in the shaded jar.
+[INFO] Including org.hibernate:hibernate-core:jar:4.3.11.Final in the shaded jar.
+[INFO] Including org.jboss.logging:jboss-logging-annotations:jar:1.2.0.Beta1 in the shaded jar.
+[INFO] Including org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.0.0.Final in the shaded jar.
+[INFO] Including dom4j:dom4j:jar:1.6.1 in the shaded jar.
+[INFO] Including org.hibernate.common:hibernate-commons-annotations:jar:4.0.5.Final in the shaded jar.
+[INFO] Including org.hibernate.javax.persistence:hibernate-jpa-2.1-api:jar:1.0.0.Final in the shaded jar.
+[INFO] Including org.javassist:javassist:jar:3.18.1-GA in the shaded jar.
+[INFO] Including antlr:antlr:jar:2.7.7 in the shaded jar.
+[INFO] Including org.jboss:jandex:jar:1.1.0.Final in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-client:jar:0.9.0 in the shaded jar.
+[INFO] Including org.glassfish.jersey.core:jersey-client:jar:2.22.1 in the shaded jar.
+[INFO] Including javax.ws.rs:javax.ws.rs-api:jar:2.0.1 in the shaded jar.
+[INFO] Including org.glassfish.jersey.core:jersey-common:jar:2.22.1 in the shaded jar.
+[INFO] Including org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.22.1 in the shaded jar.
+[INFO] Including org.glassfish.hk2:osgi-resource-locator:jar:1.0.1 in the shaded jar.
+[INFO] Including org.glassfish.hk2:hk2-api:jar:2.4.0-b31 in the shaded jar.
+[INFO] Including org.glassfish.hk2:hk2-utils:jar:2.4.0-b31 in the shaded jar.
+[INFO] Including org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b31 in the shaded jar.
+[INFO] Including org.glassfish.hk2.external:javax.inject:jar:2.4.0-b31 in the shaded jar.
+[INFO] Including org.glassfish.hk2:hk2-locator:jar:2.4.0-b31 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpclient:jar:4.5.1 in the shaded jar.
+[INFO] Including org.apache.httpcomponents:httpcore:jar:4.4.3 in the shaded jar.
+[INFO] Including commons-codec:commons-codec:jar:1.9 in the shaded jar.
+[INFO] Including io.dropwizard.metrics:metrics-httpclient:jar:3.1.2 in the shaded jar.
+[INFO] Including org.glassfish.jersey.connectors:jersey-apache-connector:jar:2.22.1 in the shaded jar.
+[INFO] Including com.smoketurner:dropwizard-swagger:jar:0.9.1-1 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-assets:jar:0.9.1 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-views:jar:0.9.1 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-views-freemarker:jar:0.9.1 in the shaded jar.
+[INFO] Including org.freemarker:freemarker:jar:2.3.23 in the shaded jar.
+[INFO] Including org.glassfish.jersey.media:jersey-media-multipart:jar:2.22.1 in the shaded jar.
+[INFO] Including org.jvnet.mimepull:mimepull:jar:1.9.6 in the shaded jar.
+[INFO] Including io.swagger:swagger-jersey2-jaxrs:jar:1.5.4 in the shaded jar.
+[INFO] Including io.swagger:swagger-jaxrs:jar:1.5.4 in the shaded jar.
+[INFO] Including com.fasterxml.jackson.dataformat:jackson-dataformat-xml:jar:2.4.5 in the shaded jar.
+[INFO] Including org.codehaus.woodstox:stax2-api:jar:3.1.4 in the shaded jar.
+[INFO] Including io.swagger:swagger-core:jar:1.5.4 in the shaded jar.
+[INFO] Including io.swagger:swagger-models:jar:1.5.4 in the shaded jar.
+[INFO] Including io.swagger:swagger-annotations:jar:1.5.4 in the shaded jar.
+[INFO] Including org.reflections:reflections:jar:0.9.10 in the shaded jar.
+[INFO] Including com.google.code.findbugs:annotations:jar:2.0.1 in the shaded jar.
+[INFO] Including xml-apis:xml-apis:jar:1.4.01 in the shaded jar.
+[INFO] Including io.dropwizard:dropwizard-auth:jar:0.9.1 in the shaded jar.
+[INFO] Including com.h2database:h2:jar:1.4.190 in the shaded jar.
+[WARNING] asset-application-1.0-SNAPSHOT.jar, logback-classic-1.1.3.jar define 173 overlappping classes: 
+[WARNING]   - ch.qos.logback.classic.joran.action.ConsolePluginAction
+[WARNING]   - ch.qos.logback.classic.util.LevelToSyslogSeverity
+[WARNING]   - ch.qos.logback.classic.spi.ClassPackagingData
+[WARNING]   - ch.qos.logback.classic.joran.action.EvaluatorAction
+[WARNING]   - ch.qos.logback.classic.joran.action.ConfigurationAction
+[WARNING]   - ch.qos.logback.classic.spi.StackTraceElementProxy
+[WARNING]   - ch.qos.logback.classic.sift.ContextBasedDiscriminator
+[WARNING]   - ch.qos.logback.classic.gaffer.ConfigurationDelegate$_copyContributions_closure2
+[WARNING]   - ch.qos.logback.classic.pattern.RootCauseFirstThrowableProxyConverter
+[WARNING]   - ch.qos.logback.classic.spi.LoggerContextAware
+[WARNING]   - 163 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, metrics-json-3.1.2.jar define 11 overlappping classes: 
+[WARNING]   - com.codahale.metrics.json.MetricsModule$MetricRegistrySerializer
+[WARNING]   - com.codahale.metrics.json.HealthCheckModule$HealthCheckResultSerializer
+[WARNING]   - com.codahale.metrics.json.MetricsModule$TimerSerializer
+[WARNING]   - com.codahale.metrics.json.HealthCheckModule
+[WARNING]   - com.codahale.metrics.json.MetricsModule$GaugeSerializer
+[WARNING]   - com.codahale.metrics.json.MetricsModule$1
+[WARNING]   - com.codahale.metrics.json.MetricsModule$MeterSerializer
+[WARNING]   - com.codahale.metrics.json.MetricsModule
+[WARNING]   - com.codahale.metrics.json.MetricsModule$HistogramSerializer
+[WARNING]   - com.codahale.metrics.json.MetricsModule$CounterSerializer
+[WARNING]   - 1 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jetty-util-9.2.13.v20150730.jar define 200 overlappping classes: 
+[WARNING]   - org.eclipse.jetty.util.MemoryUtils$1
+[WARNING]   - org.eclipse.jetty.util.ArrayQueue
+[WARNING]   - org.eclipse.jetty.util.resource.URLResource
+[WARNING]   - org.eclipse.jetty.util.Scanner$DiscreteListener
+[WARNING]   - org.eclipse.jetty.util.log.StacklessLogging
+[WARNING]   - org.eclipse.jetty.util.component.Dumpable
+[WARNING]   - org.eclipse.jetty.util.preventers.Java2DLeakPreventer
+[WARNING]   - org.eclipse.jetty.util.resource.JarFileResource
+[WARNING]   - org.eclipse.jetty.util.Promise
+[WARNING]   - org.eclipse.jetty.util.Scanner
+[WARNING]   - 190 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, dropwizard-logging-0.9.0.jar define 16 overlappping classes: 
+[WARNING]   - io.dropwizard.logging.LoggingFactory
+[WARNING]   - io.dropwizard.logging.ConsoleAppenderFactory
+[WARNING]   - io.dropwizard.logging.FileAppenderFactory
+[WARNING]   - io.dropwizard.logging.AbstractAppenderFactory
+[WARNING]   - io.dropwizard.logging.AppenderFactory
+[WARNING]   - io.dropwizard.logging.SyslogAppenderFactory
+[WARNING]   - io.dropwizard.logging.BootstrapLogging
+[WARNING]   - io.dropwizard.logging.LoggingUtil
+[WARNING]   - io.dropwizard.logging.DefaultLoggingFactory
+[WARNING]   - io.dropwizard.logging.DropwizardLayout
+[WARNING]   - 6 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jetty-webapp-9.2.13.v20150730.jar define 41 overlappping classes: 
+[WARNING]   - org.eclipse.jetty.webapp.FragmentDescriptor
+[WARNING]   - org.eclipse.jetty.webapp.WebAppContext$1
+[WARNING]   - org.eclipse.jetty.webapp.WebAppContext
+[WARNING]   - org.eclipse.jetty.webapp.AbstractConfiguration
+[WARNING]   - org.eclipse.jetty.webapp.WebAppContext$Context
+[WARNING]   - org.eclipse.jetty.webapp.WebDescriptor$1
+[WARNING]   - org.eclipse.jetty.webapp.FragmentDescriptor$OtherType
+[WARNING]   - org.eclipse.jetty.webapp.WebInfConfiguration$2
+[WARNING]   - org.eclipse.jetty.webapp.Descriptor
+[WARNING]   - org.eclipse.jetty.webapp.CloneConfiguration
+[WARNING]   - 31 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, logback-core-1.1.3.jar define 365 overlappping classes: 
+[WARNING]   - ch.qos.logback.core.LayoutBase
+[WARNING]   - ch.qos.logback.core.net.ssl.SSL
+[WARNING]   - ch.qos.logback.core.spi.AbstractComponentTracker
+[WARNING]   - ch.qos.logback.core.net.ssl.SSLConfigurableServerSocket
+[WARNING]   - ch.qos.logback.core.util.OptionHelper
+[WARNING]   - ch.qos.logback.core.pattern.parser.TokenStream$TokenizerState
+[WARNING]   - ch.qos.logback.core.rolling.RollingPolicyBase
+[WARNING]   - ch.qos.logback.core.joran.action.ImplicitAction
+[WARNING]   - ch.qos.logback.core.joran.conditional.ElseAction
+[WARNING]   - ch.qos.logback.core.rolling.helper.FileFilterUtil$2
+[WARNING]   - 355 more...
+[WARNING] jackson-datatype-joda-2.6.3.jar, asset-application-1.0-SNAPSHOT.jar define 41 overlappping classes: 
+[WARNING]   - com.fasterxml.jackson.datatype.joda.JodaModule
+[WARNING]   - com.fasterxml.jackson.datatype.joda.ser.LocalTimeSerializer
+[WARNING]   - com.fasterxml.jackson.datatype.joda.deser.DateMidnightDeserializer$1
+[WARNING]   - com.fasterxml.jackson.datatype.joda.deser.IntervalDeserializer
+[WARNING]   - com.fasterxml.jackson.datatype.joda.deser.LocalTimeDeserializer
+[WARNING]   - com.fasterxml.jackson.datatype.joda.deser.LocalDateTimeDeserializer
+[WARNING]   - com.fasterxml.jackson.datatype.joda.deser.DateMidnightDeserializer
+[WARNING]   - com.fasterxml.jackson.datatype.joda.deser.LocalTimeDeserializer$1
+[WARNING]   - com.fasterxml.jackson.datatype.joda.deser.key.JodaKeyDeserializer
+[WARNING]   - com.fasterxml.jackson.datatype.joda.deser.MonthDayDeserializer
+[WARNING]   - 31 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jersey-container-servlet-core-2.22.1.jar define 50 overlappping classes: 
+[WARNING]   - org.glassfish.jersey.servlet.WebComponent$3
+[WARNING]   - org.glassfish.jersey.servlet.WebComponent$WebComponentBinder
+[WARNING]   - org.glassfish.jersey.servlet.WebConfig
+[WARNING]   - org.glassfish.jersey.servlet.internal.LocalizationMessages
+[WARNING]   - org.glassfish.jersey.servlet.WebComponent$WebComponentBinder$3
+[WARNING]   - org.glassfish.jersey.servlet.ServletPropertiesDelegate
+[WARNING]   - org.glassfish.jersey.servlet.WebComponent$7
+[WARNING]   - org.glassfish.jersey.servlet.internal.ResponseWriter
+[WARNING]   - org.glassfish.jersey.servlet.WebAppResourcesScanner$1
+[WARNING]   - org.glassfish.jersey.servlet.internal.spi.RequestScopedInitializerProvider
+[WARNING]   - 40 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, slf4j-api-1.7.12.jar define 28 overlappping classes: 
+[WARNING]   - org.slf4j.helpers.SubstituteLogger
+[WARNING]   - org.slf4j.helpers.NamedLoggerBase
+[WARNING]   - org.slf4j.helpers.NOPMDCAdapter
+[WARNING]   - org.slf4j.MarkerFactory
+[WARNING]   - org.slf4j.helpers.BasicMarker
+[WARNING]   - org.slf4j.spi.LoggerFactoryBinder
+[WARNING]   - org.slf4j.MDC$MDCCloseable
+[WARNING]   - org.slf4j.spi.LocationAwareLogger
+[WARNING]   - org.slf4j.helpers.MessageFormatter
+[WARNING]   - org.slf4j.helpers.Util$ClassContextSecurityManager
+[WARNING]   - 18 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, metrics-annotation-3.1.2.jar define 7 overlappping classes: 
+[WARNING]   - com.codahale.metrics.annotation.Counted
+[WARNING]   - com.codahale.metrics.annotation.Timed
+[WARNING]   - com.codahale.metrics.annotation.ExceptionMetered
+[WARNING]   - com.codahale.metrics.annotation.Metered
+[WARNING]   - com.codahale.metrics.annotation.Metric
+[WARNING]   - com.codahale.metrics.annotation.Gauge
+[WARNING]   - com.codahale.metrics.annotation.CachedGauge
+[WARNING] metrics-jersey2-3.1.2.jar, asset-application-1.0-SNAPSHOT.jar define 8 overlappping classes: 
+[WARNING]   - com.codahale.metrics.jersey2.InstrumentedResourceMethodApplicationListener$ChainedRequestEventListener
+[WARNING]   - com.codahale.metrics.jersey2.InstrumentedResourceMethodApplicationListener$1
+[WARNING]   - com.codahale.metrics.jersey2.InstrumentedResourceMethodApplicationListener$TimerRequestEventListener
+[WARNING]   - com.codahale.metrics.jersey2.InstrumentedResourceMethodApplicationListener$MeterRequestEventListener
+[WARNING]   - com.codahale.metrics.jersey2.InstrumentedResourceMethodApplicationListener$ExceptionMeterMetric
+[WARNING]   - com.codahale.metrics.jersey2.InstrumentedResourceMethodApplicationListener
+[WARNING]   - com.codahale.metrics.jersey2.InstrumentedResourceMethodApplicationListener$ExceptionMeterRequestEventListener
+[WARNING]   - com.codahale.metrics.jersey2.MetricsFeature
+[WARNING] hibernate-jpa-2.1-api-1.0.0.Final.jar, asset-application-1.0-SNAPSHOT.jar define 200 overlappping classes: 
+[WARNING]   - javax.persistence.EntityManager
+[WARNING]   - javax.persistence.Convert
+[WARNING]   - javax.persistence.metamodel.SingularAttribute
+[WARNING]   - javax.persistence.StoredProcedureQuery
+[WARNING]   - javax.persistence.AccessType
+[WARNING]   - javax.persistence.EmbeddedId
+[WARNING]   - javax.persistence.metamodel.IdentifiableType
+[WARNING]   - javax.persistence.Lob
+[WARNING]   - javax.persistence.criteria.CompoundSelection
+[WARNING]   - javax.persistence.MapKeyColumn
+[WARNING]   - 190 more...
+[WARNING] dropwizard-jackson-0.9.0.jar, asset-application-1.0-SNAPSHOT.jar define 19 overlappping classes: 
+[WARNING]   - io.dropwizard.jackson.GuavaExtrasModule$GuavaExtrasDeserializers
+[WARNING]   - io.dropwizard.jackson.GuavaExtrasModule$1
+[WARNING]   - io.dropwizard.jackson.LogbackModule$LogbackSerializers
+[WARNING]   - io.dropwizard.jackson.GuavaExtrasModule
+[WARNING]   - io.dropwizard.jackson.DiscoverableSubtypeResolver
+[WARNING]   - io.dropwizard.jackson.JsonSnakeCase
+[WARNING]   - io.dropwizard.jackson.FuzzyEnumModule
+[WARNING]   - io.dropwizard.jackson.Jackson
+[WARNING]   - io.dropwizard.jackson.LogbackModule
+[WARNING]   - io.dropwizard.jackson.AnnotationSensitivePropertyNamingStrategy
+[WARNING]   - 9 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, metrics-httpclient-3.1.2.jar define 12 overlappping classes: 
+[WARNING]   - com.codahale.metrics.httpclient.HttpClientMetricNameStrategies$2
+[WARNING]   - com.codahale.metrics.httpclient.InstrumentedHttpClientConnectionManager$2
+[WARNING]   - com.codahale.metrics.httpclient.InstrumentedHttpClientConnectionManager$4
+[WARNING]   - com.codahale.metrics.httpclient.HttpClientMetricNameStrategies$3
+[WARNING]   - com.codahale.metrics.httpclient.InstrumentedHttpClientConnectionManager$3
+[WARNING]   - com.codahale.metrics.httpclient.HttpClientMetricNameStrategy
+[WARNING]   - com.codahale.metrics.httpclient.HttpClientMetricNameStrategies
+[WARNING]   - com.codahale.metrics.httpclient.InstrumentedHttpClients
+[WARNING]   - com.codahale.metrics.httpclient.HttpClientMetricNameStrategies$1
+[WARNING]   - com.codahale.metrics.httpclient.InstrumentedHttpClientConnectionManager
+[WARNING]   - 2 more...
+[WARNING] jersey-common-2.22.1.jar, asset-application-1.0-SNAPSHOT.jar define 472 overlappping classes: 
+[WARNING]   - org.glassfish.jersey.internal.inject.ContextInjectionResolver$Binder
+[WARNING]   - org.glassfish.jersey.internal.ServiceFinder$ServiceIteratorProvider
+[WARNING]   - org.glassfish.jersey.message.internal.HttpHeaderReader$1
+[WARNING]   - org.glassfish.jersey.internal.util.collection.KeyComparatorHashMap$1
+[WARNING]   - org.glassfish.jersey.uri.UriTemplate$1ValuesFromArrayStrategy
+[WARNING]   - org.glassfish.jersey.message.internal.TracingLogger$Level
+[WARNING]   - org.glassfish.jersey.internal.util.PropertyAlias
+[WARNING]   - org.glassfish.jersey.uri.UriTemplate$3
+[WARNING]   - org.glassfish.jersey.model.internal.ComponentBag$7
+[WARNING]   - org.glassfish.jersey.spi.AbstractThreadPoolProvider
+[WARNING]   - 462 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, swagger-jersey2-jaxrs-1.5.4.jar define 3 overlappping classes: 
+[WARNING]   - io.swagger.jersey.listing.ApiListingResourceJSON
+[WARNING]   - io.swagger.jersey.SwaggerJersey2Jaxrs
+[WARNING]   - io.swagger.jersey.config.JerseyJaxrsConfig
+[WARNING] stax2-api-3.1.4.jar, asset-application-1.0-SNAPSHOT.jar define 124 overlappping classes: 
+[WARNING]   - org.codehaus.stax2.ri.Stax2ReaderImpl
+[WARNING]   - org.codehaus.stax2.ri.typed.ValueEncoderFactory$TokenEncoder
+[WARNING]   - org.codehaus.stax2.evt.XMLEvent2
+[WARNING]   - org.codehaus.stax2.ri.typed.ValueDecoderFactory$FloatDecoder
+[WARNING]   - org.codehaus.stax2.ri.typed.ValueEncoderFactory
+[WARNING]   - org.codehaus.stax2.validation.Validatable
+[WARNING]   - org.codehaus.stax2.ri.typed.ValueDecoderFactory$BaseArrayDecoder
+[WARNING]   - org.codehaus.stax2.XMLStreamProperties
+[WARNING]   - org.codehaus.stax2.ri.typed.AsciiValueEncoder
+[WARNING]   - org.codehaus.stax2.osgi.Stax2InputFactoryProvider
+[WARNING]   - 114 more...
+[WARNING] swagger-core-1.5.4.jar, asset-application-1.0-SNAPSHOT.jar define 70 overlappping classes: 
+[WARNING]   - io.swagger.util.PrimitiveType$5
+[WARNING]   - io.swagger.util.PrimitiveType$12
+[WARNING]   - io.swagger.jackson.ModelResolver$GeneratorWrapper
+[WARNING]   - io.swagger.util.ModelDeserializer
+[WARNING]   - io.swagger.util.ParameterProcessor$ApiImplicitParamWrapper
+[WARNING]   - io.swagger.jackson.SwaggerAnnotationIntrospector
+[WARNING]   - io.swagger.util.PrimitiveType
+[WARNING]   - io.swagger.jackson.ModelResolver$1
+[WARNING]   - io.swagger.util.PrimitiveType$15
+[WARNING]   - io.swagger.util.ResponseDeserializer
+[WARNING]   - 60 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, dom4j-1.6.1.jar define 190 overlappping classes: 
+[WARNING]   - org.dom4j.bean.BeanMetaData
+[WARNING]   - org.dom4j.dom.DOMDocumentFactory
+[WARNING]   - org.dom4j.bean.BeanElement
+[WARNING]   - org.dom4j.VisitorSupport
+[WARNING]   - org.dom4j.DocumentHelper
+[WARNING]   - org.dom4j.tree.DefaultAttribute
+[WARNING]   - org.dom4j.tree.FlyweightProcessingInstruction
+[WARNING]   - org.dom4j.tree.AbstractDocumentType
+[WARNING]   - org.dom4j.rule.Pattern
+[WARNING]   - org.dom4j.rule.pattern.DefaultPattern
+[WARNING]   - 180 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jetty-xml-9.2.13.v20150730.jar define 12 overlappping classes: 
+[WARNING]   - org.eclipse.jetty.xml.ConfigurationProcessorFactory
+[WARNING]   - org.eclipse.jetty.xml.XmlParser$Node
+[WARNING]   - org.eclipse.jetty.xml.XmlConfiguration$JettyXmlConfiguration
+[WARNING]   - org.eclipse.jetty.xml.ConfigurationProcessor
+[WARNING]   - org.eclipse.jetty.xml.XmlParser$Handler
+[WARNING]   - org.eclipse.jetty.xml.XmlConfiguration
+[WARNING]   - org.eclipse.jetty.xml.XmlConfiguration$1
+[WARNING]   - org.eclipse.jetty.xml.XmlAppendable
+[WARNING]   - org.eclipse.jetty.xml.XmlParser
+[WARNING]   - org.eclipse.jetty.xml.XmlParser$Node$1
+[WARNING]   - 2 more...
+[WARNING] jersey-guava-2.22.1.jar, asset-application-1.0-SNAPSHOT.jar define 753 overlappping classes: 
+[WARNING]   - jersey.repackaged.com.google.common.collect.AbstractMultiset$ElementSet
+[WARNING]   - jersey.repackaged.com.google.common.collect.Collections2$OrderedPermutationCollection
+[WARNING]   - jersey.repackaged.com.google.common.collect.AbstractNavigableMap$DescendingMap
+[WARNING]   - jersey.repackaged.com.google.common.collect.StandardTable$TableSet
+[WARNING]   - jersey.repackaged.com.google.common.base.Splitter
+[WARNING]   - jersey.repackaged.com.google.common.util.concurrent.Futures$1$1
+[WARNING]   - jersey.repackaged.com.google.common.base.CharMatcher$5
+[WARNING]   - jersey.repackaged.com.google.common.collect.SortedMapDifference
+[WARNING]   - jersey.repackaged.com.google.common.collect.ImmutableListMultimap
+[WARNING]   - jersey.repackaged.com.google.common.cache.LocalCache$AbstractReferenceEntry
+[WARNING]   - 743 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, javax.ws.rs-api-2.0.1.jar define 125 overlappping classes: 
+[WARNING]   - javax.ws.rs.ext.RuntimeDelegate$HeaderDelegate
+[WARNING]   - javax.ws.rs.DefaultValue
+[WARNING]   - javax.ws.rs.core.StreamingOutput
+[WARNING]   - javax.ws.rs.HEAD
+[WARNING]   - javax.ws.rs.ext.WriterInterceptor
+[WARNING]   - javax.ws.rs.core.Request
+[WARNING]   - javax.ws.rs.ext.Providers
+[WARNING]   - javax.ws.rs.container.Suspended
+[WARNING]   - javax.ws.rs.container.ConnectionCallback
+[WARNING]   - javax.ws.rs.client.FactoryFinder
+[WARNING]   - 115 more...
+[WARNING] dropwizard-views-freemarker-0.9.1.jar, asset-application-1.0-SNAPSHOT.jar define 3 overlappping classes: 
+[WARNING]   - io.dropwizard.views.freemarker.FreemarkerViewRenderer$TemplateLoader
+[WARNING]   - io.dropwizard.views.freemarker.FreemarkerViewRenderer$1
+[WARNING]   - io.dropwizard.views.freemarker.FreemarkerViewRenderer
+[WARNING] asset-application-1.0-SNAPSHOT.jar, swagger-annotations-1.5.4.jar define 23 overlappping classes: 
+[WARNING]   - io.swagger.annotations.ApiResponse
+[WARNING]   - io.swagger.annotations.ExternalDocs
+[WARNING]   - io.swagger.annotations.ApiModel
+[WARNING]   - io.swagger.annotations.ResponseHeader
+[WARNING]   - io.swagger.annotations.Example
+[WARNING]   - io.swagger.annotations.SwaggerDefinition$Scheme
+[WARNING]   - io.swagger.annotations.AuthorizationScope
+[WARNING]   - io.swagger.annotations.Authorization
+[WARNING]   - io.swagger.annotations.ApiImplicitParam
+[WARNING]   - io.swagger.annotations.Info
+[WARNING]   - 13 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, dropwizard-lifecycle-0.9.0.jar define 9 overlappping classes: 
+[WARNING]   - io.dropwizard.lifecycle.setup.ExecutorServiceBuilder
+[WARNING]   - io.dropwizard.lifecycle.setup.LifecycleEnvironment
+[WARNING]   - io.dropwizard.lifecycle.setup.LifecycleEnvironment$ServerListener
+[WARNING]   - io.dropwizard.lifecycle.setup.ScheduledExecutorServiceBuilder
+[WARNING]   - io.dropwizard.lifecycle.setup.LifecycleEnvironment$1
+[WARNING]   - io.dropwizard.lifecycle.ExecutorServiceManager
+[WARNING]   - io.dropwizard.lifecycle.Managed
+[WARNING]   - io.dropwizard.lifecycle.JettyManaged
+[WARNING]   - io.dropwizard.lifecycle.ServerLifecycleListener
+[WARNING] httpcore-4.4.3.jar, asset-application-1.0-SNAPSHOT.jar define 254 overlappping classes: 
+[WARNING]   - org.apache.http.protocol.HttpRequestHandler
+[WARNING]   - org.apache.http.impl.io.ChunkedOutputStream
+[WARNING]   - org.apache.http.protocol.ChainBuilder
+[WARNING]   - org.apache.http.impl.entity.DisallowIdentityContentLengthStrategy
+[WARNING]   - org.apache.http.impl.ConnSupport
+[WARNING]   - org.apache.http.impl.io.DefaultHttpResponseParserFactory
+[WARNING]   - org.apache.http.HttpClientConnection
+[WARNING]   - org.apache.http.NameValuePair
+[WARNING]   - org.apache.http.protocol.HttpExpectationVerifier
+[WARNING]   - org.apache.http.impl.io.AbstractMessageWriter
+[WARNING]   - 244 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, javax.annotation-api-1.2.jar define 15 overlappping classes: 
+[WARNING]   - javax.annotation.ManagedBean
+[WARNING]   - javax.annotation.PreDestroy
+[WARNING]   - javax.annotation.Resource$AuthenticationType
+[WARNING]   - javax.annotation.Generated
+[WARNING]   - javax.annotation.security.DeclareRoles
+[WARNING]   - javax.annotation.Priority
+[WARNING]   - javax.annotation.Resource
+[WARNING]   - javax.annotation.security.DenyAll
+[WARNING]   - javax.annotation.sql.DataSourceDefinitions
+[WARNING]   - javax.annotation.security.RunAs
+[WARNING]   - 5 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jcl-over-slf4j-1.7.12.jar define 9 overlappping classes: 
+[WARNING]   - org.apache.commons.logging.impl.SimpleLog$1
+[WARNING]   - org.apache.commons.logging.Log
+[WARNING]   - org.apache.commons.logging.impl.SLF4JLogFactory
+[WARNING]   - org.apache.commons.logging.impl.SLF4JLocationAwareLog
+[WARNING]   - org.apache.commons.logging.impl.SimpleLog
+[WARNING]   - org.apache.commons.logging.LogConfigurationException
+[WARNING]   - org.apache.commons.logging.impl.NoOpLog
+[WARNING]   - org.apache.commons.logging.impl.SLF4JLog
+[WARNING]   - org.apache.commons.logging.LogFactory
+[WARNING] asset-application-1.0-SNAPSHOT.jar, hk2-utils-2.4.0-b31.jar define 68 overlappping classes: 
+[WARNING]   - org.glassfish.hk2.utilities.cache.Cache$1
+[WARNING]   - org.jvnet.hk2.component.MultiMap$1
+[WARNING]   - org.glassfish.hk2.utilities.reflection.internal.ClassReflectionHelperImpl$4
+[WARNING]   - org.glassfish.hk2.utilities.cache.LRUHybridCache
+[WARNING]   - org.glassfish.hk2.utilities.cache.LRUCache
+[WARNING]   - org.glassfish.hk2.utilities.reflection.internal.ClassReflectionHelperUtilities
+[WARNING]   - org.glassfish.hk2.utilities.reflection.ClassReflectionHelper
+[WARNING]   - org.glassfish.hk2.utilities.cache.CacheEntry
+[WARNING]   - org.glassfish.hk2.utilities.reflection.ReflectionHelper
+[WARNING]   - org.glassfish.hk2.utilities.general.ThreadSpecificObject
+[WARNING]   - 58 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, tomcat-jdbc-8.0.28.jar define 50 overlappping classes: 
+[WARNING]   - org.apache.tomcat.jdbc.pool.Validator
+[WARNING]   - org.apache.tomcat.jdbc.pool.interceptor.QueryTimeoutInterceptor
+[WARNING]   - org.apache.tomcat.jdbc.pool.TrapException
+[WARNING]   - org.apache.tomcat.jdbc.pool.ClassLoaderUtil
+[WARNING]   - org.apache.tomcat.jdbc.pool.PoolProperties$InterceptorDefinition
+[WARNING]   - org.apache.tomcat.jdbc.pool.interceptor.ResetAbandonedTimer
+[WARNING]   - org.apache.tomcat.jdbc.pool.interceptor.SlowQueryReportJmx
+[WARNING]   - org.apache.tomcat.jdbc.pool.PoolUtilities
+[WARNING]   - org.apache.tomcat.jdbc.pool.interceptor.StatementDecoratorInterceptor$ResultSetProxy
+[WARNING]   - org.apache.tomcat.jdbc.pool.DataSourceProxy
+[WARNING]   - 40 more...
+[WARNING] log4j-over-slf4j-1.7.12.jar, asset-application-1.0-SNAPSHOT.jar define 31 overlappping classes: 
+[WARNING]   - org.apache.log4j.spi.OptionHandler
+[WARNING]   - org.apache.log4j.spi.LoggerRepository
+[WARNING]   - org.apache.log4j.NDC
+[WARNING]   - org.apache.log4j.PatternLayout
+[WARNING]   - org.apache.log4j.LogManager
+[WARNING]   - org.apache.log4j.BasicConfigurator
+[WARNING]   - org.apache.log4j.spi.ErrorHandler
+[WARNING]   - org.apache.log4j.MDC
+[WARNING]   - org.apache.log4j.AppenderSkeleton
+[WARNING]   - org.apache.log4j.WriterAppender
+[WARNING]   - 21 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, javax.servlet-api-3.1.0.jar define 79 overlappping classes: 
+[WARNING]   - javax.servlet.http.Cookie
+[WARNING]   - javax.servlet.ServletContext
+[WARNING]   - javax.servlet.Registration
+[WARNING]   - javax.servlet.http.HttpSessionListener
+[WARNING]   - javax.servlet.http.HttpSessionContext
+[WARNING]   - javax.servlet.FilterChain
+[WARNING]   - javax.servlet.http.WebConnection
+[WARNING]   - javax.servlet.http.HttpServletRequestWrapper
+[WARNING]   - javax.servlet.http.HttpSessionAttributeListener
+[WARNING]   - javax.servlet.http.HttpSessionBindingListener
+[WARNING]   - 69 more...
+[WARNING] hibernate-validator-5.2.2.Final.jar, asset-application-1.0-SNAPSHOT.jar define 452 overlappping classes: 
+[WARNING]   - org.hibernate.validator.internal.metadata.aggregated.ParameterMetaData$1
+[WARNING]   - org.hibernate.validator.internal.util.TypeHelper$2
+[WARNING]   - org.hibernate.validator.internal.engine.constraintdefinition.ConstraintDefinitionBuilderContextImpl
+[WARNING]   - org.hibernate.validator.internal.constraintvalidators.hv.ScriptAssertContext
+[WARNING]   - org.hibernate.validator.internal.engine.messageinterpolation.TermResolver
+[WARNING]   - org.hibernate.validator.internal.xml.ValidationConfigType
+[WARNING]   - org.hibernate.validator.constraints.Mod11Check
+[WARNING]   - org.hibernate.validator.internal.cfg.context.TypeConstraintMappingContextImpl
+[WARNING]   - org.hibernate.validator.internal.constraintvalidators.hv.SafeHtmlValidator$1
+[WARNING]   - org.hibernate.validator.internal.constraintvalidators.hv.Mod11CheckValidator
+[WARNING]   - 442 more...
+[WARNING] guava-18.0.jar, asset-application-1.0-SNAPSHOT.jar define 1690 overlappping classes: 
+[WARNING]   - com.google.common.collect.ImmutableMapValues$1
+[WARNING]   - com.google.common.io.LineProcessor
+[WARNING]   - com.google.common.util.concurrent.AbstractService$5
+[WARNING]   - com.google.common.io.BaseEncoding$StandardBaseEncoding$2
+[WARNING]   - com.google.common.io.ByteProcessor
+[WARNING]   - com.google.common.math.package-info
+[WARNING]   - com.google.common.util.concurrent.SimpleTimeLimiter
+[WARNING]   - com.google.common.io.GwtWorkarounds$5
+[WARNING]   - com.google.common.cache.AbstractCache$StatsCounter
+[WARNING]   - com.google.common.util.concurrent.CycleDetectingLockFactory$Policies
+[WARNING]   - 1680 more...
+[WARNING] hibernate-core-4.3.11.Final.jar, asset-application-1.0-SNAPSHOT.jar define 3464 overlappping classes: 
+[WARNING]   - org.hibernate.tuple.entity.EntityTuplizerFactory
+[WARNING]   - org.hibernate.dialect.AbstractHANADialect$2$1
+[WARNING]   - org.hibernate.internal.jaxb.cfg.JaxbHibernateConfiguration$JaxbSessionFactory$JaxbEvent
+[WARNING]   - org.hibernate.dialect.Sybase11Dialect
+[WARNING]   - org.hibernate.metamodel.binding.HibernateTypeDescriptor
+[WARNING]   - org.hibernate.internal.jaxb.mapping.hbm.JaxbLoaderElement
+[WARNING]   - org.hibernate.loader.entity.PaddedBatchingEntityLoaderBuilder$PaddedBatchingEntityLoader
+[WARNING]   - org.hibernate.loader.plan.exec.process.internal.ResultSetProcessingContextImpl$1
+[WARNING]   - org.hibernate.engine.jdbc.ClobProxy
+[WARNING]   - org.hibernate.loader.plan.build.spi.TreePrinterHelper
+[WARNING]   - 3454 more...
+[WARNING] jackson-jaxrs-json-provider-2.6.3.jar, asset-application-1.0-SNAPSHOT.jar define 11 overlappping classes: 
+[WARNING]   - com.fasterxml.jackson.jaxrs.json.annotation.JSONP$Def
+[WARNING]   - com.fasterxml.jackson.jaxrs.json.JacksonJaxbJsonProvider
+[WARNING]   - com.fasterxml.jackson.jaxrs.json.JsonMapperConfigurator$1
+[WARNING]   - com.fasterxml.jackson.jaxrs.json.JsonParseExceptionMapper
+[WARNING]   - com.fasterxml.jackson.jaxrs.json.PackageVersion
+[WARNING]   - com.fasterxml.jackson.jaxrs.json.annotation.JacksonFeatures
+[WARNING]   - com.fasterxml.jackson.jaxrs.json.annotation.JSONP
+[WARNING]   - com.fasterxml.jackson.jaxrs.json.JsonEndpointConfig
+[WARNING]   - com.fasterxml.jackson.jaxrs.json.JsonMappingExceptionMapper
+[WARNING]   - com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider
+[WARNING]   - 1 more...
+[WARNING] dropwizard-views-0.9.1.jar, asset-application-1.0-SNAPSHOT.jar define 6 overlappping classes: 
+[WARNING]   - io.dropwizard.views.ViewRenderer
+[WARNING]   - io.dropwizard.views.View
+[WARNING]   - io.dropwizard.views.ViewMessageBodyWriter
+[WARNING]   - io.dropwizard.views.ViewBundle
+[WARNING]   - io.dropwizard.views.ViewConfigurable
+[WARNING]   - io.dropwizard.views.ViewRenderException
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jersey-bean-validation-2.22.1.jar define 22 overlappping classes: 
+[WARNING]   - org.glassfish.jersey.server.validation.internal.ValidationExceptionMapper
+[WARNING]   - org.glassfish.jersey.server.validation.internal.ValidationExceptionMapper$1
+[WARNING]   - org.glassfish.jersey.server.validation.internal.ValidationHelper
+[WARNING]   - org.glassfish.jersey.server.validation.internal.ValidationBinder$DefaultConfigurationProvider
+[WARNING]   - org.glassfish.jersey.server.validation.ValidationError
+[WARNING]   - org.glassfish.jersey.server.validation.internal.ValidationBinder$ConfiguredValidatorProvider
+[WARNING]   - org.glassfish.jersey.server.validation.internal.ValidationBinder
+[WARNING]   - org.glassfish.jersey.server.validation.internal.LocalizationMessages
+[WARNING]   - org.glassfish.jersey.server.validation.internal.ValidateOnExecutionHandler
+[WARNING]   - org.glassfish.jersey.server.validation.internal.InjectingConstraintValidatorFactory
+[WARNING]   - 12 more...
+[WARNING] metrics-jetty9-3.1.2.jar, asset-application-1.0-SNAPSHOT.jar define 16 overlappping classes: 
+[WARNING]   - com.codahale.metrics.jetty9.InstrumentedHandler$6
+[WARNING]   - com.codahale.metrics.jetty9.InstrumentedHandler$5
+[WARNING]   - com.codahale.metrics.jetty9.InstrumentedHandler$1
+[WARNING]   - com.codahale.metrics.jetty9.InstrumentedHandler$8
+[WARNING]   - com.codahale.metrics.jetty9.InstrumentedHandler
+[WARNING]   - com.codahale.metrics.jetty9.InstrumentedHandler$4
+[WARNING]   - com.codahale.metrics.jetty9.InstrumentedConnectionFactory$1
+[WARNING]   - com.codahale.metrics.jetty9.InstrumentedQueuedThreadPool$4
+[WARNING]   - com.codahale.metrics.jetty9.InstrumentedHandler$3
+[WARNING]   - com.codahale.metrics.jetty9.InstrumentedQueuedThreadPool$3
+[WARNING]   - 6 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, javassist-3.18.1-GA.jar define 390 overlappping classes: 
+[WARNING]   - javassist.util.proxy.ProxyFactory$3
+[WARNING]   - javassist.bytecode.FieldInfo
+[WARNING]   - javassist.DirClassPath
+[WARNING]   - javassist.ClassPool$1
+[WARNING]   - javassist.expr.Cast$ProceedForCast
+[WARNING]   - javassist.URLClassPath
+[WARNING]   - javassist.CtMethod$LongConstParameter
+[WARNING]   - javassist.compiler.Javac$2
+[WARNING]   - javassist.bytecode.annotation.ClassMemberValue
+[WARNING]   - javassist.bytecode.stackmap.TypeData$ClassName
+[WARNING]   - 380 more...
+[WARNING] metrics-core-3.1.2.jar, asset-application-1.0-SNAPSHOT.jar define 102 overlappping classes: 
+[WARNING]   - com.codahale.metrics.JmxReporter$JmxGaugeMBean
+[WARNING]   - com.codahale.metrics.JmxReporter
+[WARNING]   - com.codahale.metrics.EWMA
+[WARNING]   - com.codahale.metrics.Gauge
+[WARNING]   - com.codahale.metrics.JmxReporter$JmxCounterMBean
+[WARNING]   - com.codahale.metrics.MetricRegistry$MetricBuilder$1
+[WARNING]   - com.codahale.metrics.MetricFilter$1
+[WARNING]   - com.codahale.metrics.InstrumentedExecutorService$InstrumentedRunnable
+[WARNING]   - com.codahale.metrics.ThreadLocalRandom
+[WARNING]   - com.codahale.metrics.RatioGauge$Ratio
+[WARNING]   - 92 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, h2-1.4.190.jar define 637 overlappping classes: 
+[WARNING]   - org.h2.tools.SimpleResultSet$SimpleArray
+[WARNING]   - org.h2.index.LinkedCursor
+[WARNING]   - org.h2.mvstore.FreeSpaceBitSet
+[WARNING]   - org.h2.bnf.context.DbColumn
+[WARNING]   - org.h2.constraint.Constraint
+[WARNING]   - org.h2.expression.AggregateDataSelectivity
+[WARNING]   - org.h2.store.FileStoreInputStream
+[WARNING]   - org.h2.mvstore.cache.FilePathCache$FileCache
+[WARNING]   - org.h2.command.ddl.TruncateTable
+[WARNING]   - org.h2.store.fs.FileMemData$Cache
+[WARNING]   - 627 more...
+[WARNING] snakeyaml-1.15.jar, asset-application-1.0-SNAPSHOT.jar define 201 overlappping classes: 
+[WARNING]   - org.yaml.snakeyaml.emitter.Emitter$ExpectBlockMappingValue
+[WARNING]   - org.yaml.snakeyaml.parser.ParserImpl$ParseBlockNode
+[WARNING]   - org.yaml.snakeyaml.emitter.Emitter$ExpectBlockMappingSimpleValue
+[WARNING]   - org.yaml.snakeyaml.emitter.Emitter$ExpectDocumentEnd
+[WARNING]   - org.yaml.snakeyaml.Yaml$3
+[WARNING]   - org.yaml.snakeyaml.emitter.Emitter$ExpectBlockSequenceItem
+[WARNING]   - org.yaml.snakeyaml.parser.ParserImpl$ParseBlockSequenceEntry
+[WARNING]   - org.yaml.snakeyaml.tokens.Token$ID
+[WARNING]   - org.yaml.snakeyaml.reader.StreamReader
+[WARNING]   - org.yaml.snakeyaml.representer.SafeRepresenter$RepresentList
+[WARNING]   - 191 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jetty-servlet-9.2.13.v20150730.jar define 45 overlappping classes: 
+[WARNING]   - org.eclipse.jetty.servlet.ServletHandler$Default404Servlet
+[WARNING]   - org.eclipse.jetty.servlet.FilterMapping
+[WARNING]   - org.eclipse.jetty.servlet.ServletContextHandler
+[WARNING]   - org.eclipse.jetty.servlet.Holder$1
+[WARNING]   - org.eclipse.jetty.servlet.FilterMapping$1
+[WARNING]   - org.eclipse.jetty.servlet.ServletContextHandler$ServletContainerInitializerCaller
+[WARNING]   - org.eclipse.jetty.servlet.FilterHolder
+[WARNING]   - org.eclipse.jetty.servlet.Invoker
+[WARNING]   - org.eclipse.jetty.servlet.Holder
+[WARNING]   - org.eclipse.jetty.servlet.jmx.HolderMBean
+[WARNING]   - 35 more...
+[WARNING] dropwizard-metrics-0.9.0.jar, asset-application-1.0-SNAPSHOT.jar define 14 overlappping classes: 
+[WARNING]   - io.dropwizard.metrics.BaseReporterFactory$1
+[WARNING]   - io.dropwizard.metrics.BaseReporterFactory$RegexStringMatchingStrategy
+[WARNING]   - io.dropwizard.metrics.ConsoleReporterFactory
+[WARNING]   - io.dropwizard.metrics.BaseReporterFactory$StringMatchingStrategy
+[WARNING]   - io.dropwizard.metrics.Slf4jReporterFactory
+[WARNING]   - io.dropwizard.metrics.BaseReporterFactory$DefaultStringMatchingStrategy
+[WARNING]   - io.dropwizard.metrics.ScheduledReporterManager
+[WARNING]   - io.dropwizard.metrics.CsvReporterFactory
+[WARNING]   - io.dropwizard.metrics.ConsoleReporterFactory$ConsoleStream
+[WARNING]   - io.dropwizard.metrics.MetricsFactory
+[WARNING]   - 4 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, reflections-0.9.10.jar define 96 overlappping classes: 
+[WARNING]   - org.reflections.vfs.Vfs$DefaultUrlTypes$1
+[WARNING]   - org.reflections.ReflectionUtils$1
+[WARNING]   - org.reflections.ReflectionUtils$11$1
+[WARNING]   - org.reflections.Reflections$1
+[WARNING]   - org.reflections.ReflectionUtils$8
+[WARNING]   - org.reflections.adapters.JavassistAdapter
+[WARNING]   - org.reflections.scanners.MethodParameterScanner
+[WARNING]   - org.reflections.scanners.SubTypesScanner
+[WARNING]   - org.reflections.serializers.JsonSerializer
+[WARNING]   - org.reflections.serializers.JsonSerializer$1
+[WARNING]   - 86 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, swagger-models-1.5.4.jar define 87 overlappping classes: 
+[WARNING]   - io.swagger.models.parameters.RefParameter
+[WARNING]   - io.swagger.models.auth.AuthorizationValue
+[WARNING]   - io.swagger.models.properties.PropertyBuilder$Processor$3
+[WARNING]   - io.swagger.models.properties.PropertyBuilder$1
+[WARNING]   - io.swagger.models.properties.ArrayProperty
+[WARNING]   - io.swagger.models.parameters.FormParameter
+[WARNING]   - io.swagger.models.RefResponse
+[WARNING]   - io.swagger.models.properties.StringProperty
+[WARNING]   - io.swagger.models.parameters.QueryParameter
+[WARNING]   - io.swagger.models.parameters.BodyParameter
+[WARNING]   - 77 more...
+[WARNING] jersey-media-multipart-2.22.1.jar, asset-application-1.0-SNAPSHOT.jar define 42 overlappping classes: 
+[WARNING]   - org.glassfish.jersey.media.multipart.ParameterizedHeadersMap
+[WARNING]   - org.glassfish.jersey.media.multipart.internal.FormDataParamValueFactoryProvider$FormDataParamValueFactory
+[WARNING]   - org.glassfish.jersey.media.multipart.internal.FormDataParamValueFactoryProvider$InjectionResolver
+[WARNING]   - org.glassfish.jersey.media.multipart.internal.FormDataParamValueFactoryProvider$ListFormDataContentDispositionFactory
+[WARNING]   - org.glassfish.jersey.media.multipart.internal.FormDataParamInjectionFeature$1
+[WARNING]   - org.glassfish.jersey.media.multipart.ContentDisposition$ContentDispositionBuilder
+[WARNING]   - org.glassfish.jersey.media.multipart.internal.MultiPartWriter
+[WARNING]   - org.glassfish.jersey.media.multipart.internal.LocalizationMessages
+[WARNING]   - org.glassfish.jersey.media.multipart.internal.FormDataParamValueFactoryProvider$FormDataParamException
+[WARNING]   - org.glassfish.jersey.media.multipart.internal.FormDataParamValueFactoryProvider$FormDataContentDispositionFactory
+[WARNING]   - 32 more...
+[WARNING] jetty-http-9.2.13.v20150730.jar, asset-application-1.0-SNAPSHOT.jar define 49 overlappping classes: 
+[WARNING]   - org.eclipse.jetty.http.HttpParser$HttpHandler
+[WARNING]   - org.eclipse.jetty.http.HttpTester$1
+[WARNING]   - org.eclipse.jetty.http.HttpGenerator$PreparedResponse
+[WARNING]   - org.eclipse.jetty.http.HttpGenerator$Info
+[WARNING]   - org.eclipse.jetty.http.HttpParser$1
+[WARNING]   - org.eclipse.jetty.http.HttpParser$IllegalCharacterException
+[WARNING]   - org.eclipse.jetty.http.HttpTester
+[WARNING]   - org.eclipse.jetty.http.HttpParser$BadMessageException
+[WARNING]   - org.eclipse.jetty.http.HttpVersion
+[WARNING]   - org.eclipse.jetty.http.HttpField
+[WARNING]   - 39 more...
+[WARNING] hk2-locator-2.4.0-b31.jar, asset-application-1.0-SNAPSHOT.jar define 94 overlappping classes: 
+[WARNING]   - org.jvnet.hk2.internal.PerLocatorUtilities$1
+[WARNING]   - org.jvnet.hk2.internal.Utilities$4
+[WARNING]   - org.jvnet.hk2.internal.ProxyUtilities$2
+[WARNING]   - org.jvnet.hk2.internal.ServiceLocatorImpl$12
+[WARNING]   - org.jvnet.hk2.internal.MethodInterceptorInvocationHandler
+[WARNING]   - org.jvnet.hk2.internal.ClazzCreator
+[WARNING]   - org.jvnet.hk2.internal.ValidationInformationImpl
+[WARNING]   - org.jvnet.hk2.internal.ServiceLocatorImpl$6
+[WARNING]   - org.jvnet.hk2.internal.ConstructorInterceptorHandler$1
+[WARNING]   - org.jvnet.hk2.internal.ServiceLocatorImpl$IgdValue
+[WARNING]   - 84 more...
+[WARNING] jackson-datatype-guava-2.6.3.jar, asset-application-1.0-SNAPSHOT.jar define 44 overlappping classes: 
+[WARNING]   - com.fasterxml.jackson.datatype.guava.deser.GuavaMultisetDeserializer
+[WARNING]   - com.fasterxml.jackson.datatype.guava.ser.GuavaOptionalBeanPropertyWriter
+[WARNING]   - com.fasterxml.jackson.datatype.guava.deser.HashMultisetDeserializer
+[WARNING]   - com.fasterxml.jackson.datatype.guava.deser.ImmutableSortedMultisetDeserializer
+[WARNING]   - com.fasterxml.jackson.datatype.guava.deser.ImmutableBiMapDeserializer
+[WARNING]   - com.fasterxml.jackson.datatype.guava.deser.util.RangeFactory$2
+[WARNING]   - com.fasterxml.jackson.datatype.guava.deser.HostAndPortDeserializer
+[WARNING]   - com.fasterxml.jackson.datatype.guava.ser.GuavaUnwrappingOptionalBeanPropertyWriter
+[WARNING]   - com.fasterxml.jackson.datatype.guava.PackageVersion
+[WARNING]   - com.fasterxml.jackson.datatype.guava.GuavaModule
+[WARNING]   - 34 more...
+[WARNING] jersey-metainf-services-2.22.1.jar, asset-application-1.0-SNAPSHOT.jar define 2 overlappping classes: 
+[WARNING]   - org.glassfish.jersey.spidiscovery.internal.MetaInfServicesAutoDiscoverable$1
+[WARNING]   - org.glassfish.jersey.spidiscovery.internal.MetaInfServicesAutoDiscoverable
+[WARNING] asset-application-1.0-SNAPSHOT.jar, tomcat-juli-8.0.28.jar define 26 overlappping classes: 
+[WARNING]   - org.apache.juli.OneLineFormatter$2
+[WARNING]   - org.apache.juli.WebappProperties
+[WARNING]   - org.apache.juli.FileHandler
+[WARNING]   - org.apache.juli.ClassLoaderLogManager$2
+[WARNING]   - org.apache.juli.VerbatimFormatter
+[WARNING]   - org.apache.juli.ClassLoaderLogManager$ClassLoaderLogInfo
+[WARNING]   - org.apache.juli.AsyncFileHandler$LogEntry
+[WARNING]   - org.apache.juli.logging.Log
+[WARNING]   - org.apache.juli.JdkLoggerFormatter
+[WARNING]   - org.apache.juli.ClassLoaderLogManager$LogNode
+[WARNING]   - 16 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jetty-setuid-java-1.0.3.jar define 8 overlappping classes: 
+[WARNING]   - org.eclipse.jetty.setuid.Passwd
+[WARNING]   - org.eclipse.jetty.setuid.SetUID
+[WARNING]   - org.eclipse.jetty.setuid.SetUID$1
+[WARNING]   - org.eclipse.jetty.setuid.RLimit
+[WARNING]   - org.eclipse.jetty.setuid.Group
+[WARNING]   - org.eclipse.jetty.setuid.SetUIDListener
+[WARNING]   - org.eclipse.jetty.setuid.SetUIDServer
+[WARNING]   - org.eclipse.jetty.setuid.SetUID$LibFilenameFilter
+[WARNING] asset-application-1.0-SNAPSHOT.jar, dropwizard-util-0.9.0.jar define 5 overlappping classes: 
+[WARNING]   - io.dropwizard.util.Duration
+[WARNING]   - io.dropwizard.util.Generics
+[WARNING]   - io.dropwizard.util.JarLocation
+[WARNING]   - io.dropwizard.util.Size
+[WARNING]   - io.dropwizard.util.SizeUnit
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jersey-client-2.22.1.jar define 107 overlappping classes: 
+[WARNING]   - org.glassfish.jersey.client.ChunkParser
+[WARNING]   - org.glassfish.jersey.client.HttpUrlConnectorProvider
+[WARNING]   - org.glassfish.jersey.client.ResponseCallback
+[WARNING]   - org.glassfish.jersey.client.JerseyInvocation$EntityPresence
+[WARNING]   - org.glassfish.jersey.client.authentication.RequestAuthenticationException
+[WARNING]   - org.glassfish.jersey.client.JerseyInvocation$5
+[WARNING]   - org.glassfish.jersey.client.ClientConfig$State$4
+[WARNING]   - org.glassfish.jersey.client.ClientResponse$1
+[WARNING]   - org.glassfish.jersey.client.InboundJaxrsResponse$2
+[WARNING]   - org.glassfish.jersey.client.internal.HttpUrlConnector$5
+[WARNING]   - 97 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, javax.el-3.0.0.jar define 156 overlappping classes: 
+[WARNING]   - com.sun.el.stream.Stream$4
+[WARNING]   - javax.el.BeanELResolver$SoftConcurrentHashMap
+[WARNING]   - com.sun.el.stream.StreamELResolver
+[WARNING]   - javax.el.StandardELContext$1
+[WARNING]   - com.sun.el.parser.JJTELParserState
+[WARNING]   - com.sun.el.MethodExpressionImpl
+[WARNING]   - javax.el.ELContextListener
+[WARNING]   - javax.el.LambdaExpression
+[WARNING]   - com.sun.el.parser.AstDotSuffix
+[WARNING]   - com.sun.el.stream.Stream$9$1
+[WARNING]   - 146 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jackson-core-2.6.3.jar define 93 overlappping classes: 
+[WARNING]   - com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer$Bucket
+[WARNING]   - com.fasterxml.jackson.core.FormatSchema
+[WARNING]   - com.fasterxml.jackson.core.io.InputDecorator
+[WARNING]   - com.fasterxml.jackson.core.JsonGenerator$Feature
+[WARNING]   - com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer
+[WARNING]   - com.fasterxml.jackson.core.type.ResolvedType
+[WARNING]   - com.fasterxml.jackson.core.io.SegmentedStringWriter
+[WARNING]   - com.fasterxml.jackson.core.TreeNode
+[WARNING]   - com.fasterxml.jackson.core.sym.Name
+[WARNING]   - com.fasterxml.jackson.core.util.JsonGeneratorDelegate
+[WARNING]   - 83 more...
+[WARNING] jetty-io-9.2.13.v20150730.jar, asset-application-1.0-SNAPSHOT.jar define 76 overlappping classes: 
+[WARNING]   - org.eclipse.jetty.io.AbstractEndPoint$2
+[WARNING]   - org.eclipse.jetty.io.WriteFlusher$FailedState
+[WARNING]   - org.eclipse.jetty.io.AbstractConnection$State
+[WARNING]   - org.eclipse.jetty.io.ClientConnectionFactory
+[WARNING]   - org.eclipse.jetty.io.Connection$UpgradeTo
+[WARNING]   - org.eclipse.jetty.io.LeakTrackingByteBufferPool$1
+[WARNING]   - org.eclipse.jetty.io.WriterOutputStream
+[WARNING]   - org.eclipse.jetty.io.WriteFlusher$CompletingState
+[WARNING]   - org.eclipse.jetty.io.NegotiatingClientConnection
+[WARNING]   - org.eclipse.jetty.io.ByteBufferPool
+[WARNING]   - 66 more...
+[WARNING] dropwizard-servlets-0.9.0.jar, asset-application-1.0-SNAPSHOT.jar define 19 overlappping classes: 
+[WARNING]   - io.dropwizard.servlets.tasks.GarbageCollectionTask
+[WARNING]   - io.dropwizard.servlets.assets.AssetServlet$1
+[WARNING]   - io.dropwizard.servlets.tasks.TaskServlet$1
+[WARNING]   - io.dropwizard.servlets.tasks.TaskServlet$TaskExecutor
+[WARNING]   - io.dropwizard.servlets.assets.AssetServlet
+[WARNING]   - io.dropwizard.servlets.Servlets
+[WARNING]   - io.dropwizard.servlets.assets.ByteRange
+[WARNING]   - io.dropwizard.servlets.ThreadNameFilter
+[WARNING]   - io.dropwizard.servlets.tasks.TaskServlet$TimedTask
+[WARNING]   - io.dropwizard.servlets.tasks.Task
+[WARNING]   - 9 more...
+[WARNING] asset-api-1.0-SNAPSHOT.jar, asset-application-1.0-SNAPSHOT.jar define 3 overlappping classes: 
+[WARNING]   - net.perspilling.asset.api.Asset
+[WARNING]   - net.perspilling.asset.api.Saying
+[WARNING]   - net.perspilling.asset.api.Address
+[WARNING] asset-application-1.0-SNAPSHOT.jar, xml-apis-1.4.01.jar define 346 overlappping classes: 
+[WARNING]   - org.w3c.dom.css.CSSValueList
+[WARNING]   - org.w3c.dom.ProcessingInstruction
+[WARNING]   - org.w3c.dom.html.HTMLBodyElement
+[WARNING]   - org.w3c.dom.Entity
+[WARNING]   - javax.xml.validation.SecuritySupport$6
+[WARNING]   - javax.xml.transform.SecuritySupport$3
+[WARNING]   - org.w3c.dom.ls.LSParserFilter
+[WARNING]   - org.w3c.dom.html.HTMLMetaElement
+[WARNING]   - javax.xml.stream.events.ProcessingInstruction
+[WARNING]   - javax.xml.transform.stax.StAXResult
+[WARNING]   - 336 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, dropwizard-jersey-0.9.0.jar define 58 overlappping classes: 
+[WARNING]   - io.dropwizard.jersey.gzip.GZipDecoder
+[WARNING]   - io.dropwizard.jersey.sessions.Session
+[WARNING]   - io.dropwizard.jersey.validation.HibernateValidationFeature$DefaultConfigurationProvider
+[WARNING]   - io.dropwizard.jersey.DropwizardResourceConfig
+[WARNING]   - io.dropwizard.jersey.params.NonEmptyStringParam
+[WARNING]   - io.dropwizard.jersey.filter.AllowedMethodsFilter
+[WARNING]   - io.dropwizard.jersey.jackson.JacksonMessageBodyProvider
+[WARNING]   - io.dropwizard.jersey.guava.OptionalParamFeature
+[WARNING]   - io.dropwizard.jersey.params.NonEmptyStringParamFeature$1$1
+[WARNING]   - io.dropwizard.jersey.sessions.Flash
+[WARNING]   - 48 more...
+[WARNING] osgi-resource-locator-1.0.1.jar, asset-application-1.0-SNAPSHOT.jar define 12 overlappping classes: 
+[WARNING]   - org.glassfish.hk2.osgiresourcelocator.ServiceLoaderImpl$1
+[WARNING]   - org.glassfish.hk2.osgiresourcelocator.ServiceLoader$ProviderFactory
+[WARNING]   - org.glassfish.hk2.osgiresourcelocator.ServiceLoader
+[WARNING]   - org.glassfish.hk2.osgiresourcelocator.ServiceLoaderImpl$ProvidersPerBundle
+[WARNING]   - org.glassfish.hk2.osgiresourcelocator.ResourceFinder
+[WARNING]   - org.glassfish.hk2.osgiresourcelocator.ResourceFinderImpl
+[WARNING]   - org.glassfish.hk2.osgiresourcelocator.Activator
+[WARNING]   - org.glassfish.hk2.osgiresourcelocator.ServiceLoaderImpl$DefaultFactory
+[WARNING]   - org.glassfish.hk2.osgiresourcelocator.ServiceLoaderImpl
+[WARNING]   - org.glassfish.hk2.osgiresourcelocator.ServiceLoaderImpl$BundleTracker
+[WARNING]   - 2 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, argparse4j-0.6.0.jar define 56 overlappping classes: 
+[WARNING]   - net.sourceforge.argparse4j.impl.action.StoreConstArgumentAction
+[WARNING]   - net.sourceforge.argparse4j.inf.ArgumentParserException
+[WARNING]   - net.sourceforge.argparse4j.internal.UnrecognizedArgumentException
+[WARNING]   - net.sourceforge.argparse4j.impl.type.EnumArgumentType
+[WARNING]   - net.sourceforge.argparse4j.internal.UnrecognizedCommandException
+[WARNING]   - net.sourceforge.argparse4j.impl.action.StoreTrueArgumentAction
+[WARNING]   - net.sourceforge.argparse4j.impl.type.StringArgumentType
+[WARNING]   - net.sourceforge.argparse4j.helper.TextWidthCounter
+[WARNING]   - net.sourceforge.argparse4j.inf.ArgumentGroup
+[WARNING]   - net.sourceforge.argparse4j.impl.action.StoreArgumentAction
+[WARNING]   - 46 more...
+[WARNING] jetty-servlets-9.2.13.v20150730.jar, asset-application-1.0-SNAPSHOT.jar define 57 overlappping classes: 
+[WARNING]   - org.eclipse.jetty.servlets.EventSource$Emitter
+[WARNING]   - org.eclipse.jetty.servlets.CrossOriginFilter
+[WARNING]   - org.eclipse.jetty.servlets.CGI$2
+[WARNING]   - org.eclipse.jetty.servlets.IncludableGzipFilter$2
+[WARNING]   - org.eclipse.jetty.servlets.gzip.CompressedResponseWrapper
+[WARNING]   - org.eclipse.jetty.servlets.QoSFilter
+[WARNING]   - org.eclipse.jetty.servlets.gzip.GzipHttpOutput$GzipBufferCB
+[WARNING]   - org.eclipse.jetty.servlets.DoSFilter$DoSAsyncListener
+[WARNING]   - org.eclipse.jetty.servlets.EventSourceServlet$EventSourceEmitter
+[WARNING]   - org.eclipse.jetty.servlets.CGI$EnvList
+[WARNING]   - 47 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, dropwizard-client-0.9.0.jar define 23 overlappping classes: 
+[WARNING]   - io.dropwizard.client.DropwizardApacheConnector$JerseyRequestHttpEntity$1
+[WARNING]   - io.dropwizard.client.HttpClientBuilder
+[WARNING]   - io.dropwizard.client.DropwizardApacheConnector$BufferedJerseyRequestHttpEntity$1
+[WARNING]   - io.dropwizard.client.proxy.ProxyConfiguration
+[WARNING]   - io.dropwizard.client.HttpClientBuilder$2
+[WARNING]   - io.dropwizard.client.DropwizardApacheConnector$JerseyRequestHttpEntity
+[WARNING]   - io.dropwizard.client.JerseyIgnoreRequestUserAgentHeaderFilter
+[WARNING]   - io.dropwizard.client.JerseyClientBuilder
+[WARNING]   - io.dropwizard.client.HttpClientBuilder$1
+[WARNING]   - io.dropwizard.client.DropwizardExecutorProvider
+[WARNING]   - 13 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, metrics-logback-3.1.2.jar define 1 overlappping classes: 
+[WARNING]   - com.codahale.metrics.logback.InstrumentedAppender
+[WARNING] jsr305-3.0.1.jar, asset-application-1.0-SNAPSHOT.jar, annotations-2.0.1.jar define 34 overlappping classes: 
+[WARNING]   - javax.annotation.RegEx
+[WARNING]   - javax.annotation.concurrent.Immutable
+[WARNING]   - javax.annotation.meta.TypeQualifierDefault
+[WARNING]   - javax.annotation.meta.TypeQualifier
+[WARNING]   - javax.annotation.Syntax
+[WARNING]   - javax.annotation.Nonnull
+[WARNING]   - javax.annotation.CheckReturnValue
+[WARNING]   - javax.annotation.CheckForNull
+[WARNING]   - javax.annotation.meta.TypeQualifierNickname
+[WARNING]   - javax.annotation.MatchesPattern
+[WARNING]   - 24 more...
+[WARNING] jackson-annotations-2.6.0.jar, asset-application-1.0-SNAPSHOT.jar define 58 overlappping classes: 
+[WARNING]   - com.fasterxml.jackson.annotation.JsonAutoDetect
+[WARNING]   - com.fasterxml.jackson.annotation.JsonInclude
+[WARNING]   - com.fasterxml.jackson.annotation.ObjectIdGenerators
+[WARNING]   - com.fasterxml.jackson.annotation.JsonFormat$Features
+[WARNING]   - com.fasterxml.jackson.annotation.JsonFormat$Feature
+[WARNING]   - com.fasterxml.jackson.annotation.JsonIgnore
+[WARNING]   - com.fasterxml.jackson.annotation.JsonSetter
+[WARNING]   - com.fasterxml.jackson.annotation.JsonTypeInfo$None
+[WARNING]   - com.fasterxml.jackson.annotation.JsonFormat$Shape
+[WARNING]   - com.fasterxml.jackson.annotation.JsonManagedReference
+[WARNING]   - 48 more...
+[WARNING] httpclient-4.5.1.jar, asset-application-1.0-SNAPSHOT.jar define 461 overlappping classes: 
+[WARNING]   - org.apache.http.impl.cookie.RFC2109Spec
+[WARNING]   - org.apache.http.impl.execchain.MainClientExec
+[WARNING]   - org.apache.http.conn.routing.RouteInfo$TunnelType
+[WARNING]   - org.apache.http.client.methods.HttpGet
+[WARNING]   - org.apache.http.impl.cookie.BrowserCompatSpecFactory
+[WARNING]   - org.apache.http.impl.client.HttpAuthenticator
+[WARNING]   - org.apache.http.client.utils.DateUtils$DateFormatHolder$1
+[WARNING]   - org.apache.http.conn.ManagedClientConnection
+[WARNING]   - org.apache.http.client.protocol.RequestAuthCache
+[WARNING]   - org.apache.http.conn.params.ConnConnectionParamBean
+[WARNING]   - 451 more...
+[WARNING] jackson-module-jaxb-annotations-2.6.3.jar, asset-application-1.0-SNAPSHOT.jar define 12 overlappping classes: 
+[WARNING]   - com.fasterxml.jackson.module.jaxb.ser.DomElementJsonSerializer
+[WARNING]   - com.fasterxml.jackson.module.jaxb.deser.DataHandlerJsonDeserializer$1
+[WARNING]   - com.fasterxml.jackson.module.jaxb.JaxbAnnotationIntrospector
+[WARNING]   - com.fasterxml.jackson.module.jaxb.JaxbAnnotationModule$Priority
+[WARNING]   - com.fasterxml.jackson.module.jaxb.deser.DomElementJsonDeserializer
+[WARNING]   - com.fasterxml.jackson.module.jaxb.JaxbAnnotationModule$1
+[WARNING]   - com.fasterxml.jackson.module.jaxb.JaxbAnnotationIntrospector$1
+[WARNING]   - com.fasterxml.jackson.module.jaxb.JaxbAnnotationModule
+[WARNING]   - com.fasterxml.jackson.module.jaxb.deser.DataHandlerJsonDeserializer
+[WARNING]   - com.fasterxml.jackson.module.jaxb.PackageVersion
+[WARNING]   - 2 more...
+[WARNING] jersey-media-jaxb-2.22.1.jar, asset-application-1.0-SNAPSHOT.jar define 47 overlappping classes: 
+[WARNING]   - org.glassfish.jersey.jaxb.internal.XmlRootElementJaxbProvider$App
+[WARNING]   - org.glassfish.jersey.jaxb.internal.XmlJaxbElementProvider$General
+[WARNING]   - org.glassfish.jersey.jaxb.internal.JaxbStringReaderProvider$1
+[WARNING]   - org.glassfish.jersey.jaxb.internal.XmlRootObjectJaxbProvider$General
+[WARNING]   - org.glassfish.jersey.jaxb.internal.XmlRootObjectJaxbProvider
+[WARNING]   - org.glassfish.jersey.jaxb.internal.AbstractJaxbProvider$4
+[WARNING]   - org.glassfish.jersey.jaxb.internal.XmlCollectionJaxbProvider$General
+[WARNING]   - org.glassfish.jersey.jaxb.internal.AbstractJaxbProvider$2
+[WARNING]   - org.glassfish.jersey.jaxb.internal.JaxbMessagingBinder
+[WARNING]   - org.glassfish.jersey.jaxb.internal.XmlCollectionJaxbProvider$Text
+[WARNING]   - 37 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jul-to-slf4j-1.7.12.jar define 1 overlappping classes: 
+[WARNING]   - org.slf4j.bridge.SLF4JBridgeHandler
+[WARNING] jackson-jaxrs-base-2.6.3.jar, asset-application-1.0-SNAPSHOT.jar define 16 overlappping classes: 
+[WARNING]   - com.fasterxml.jackson.jaxrs.base.ProviderBase
+[WARNING]   - com.fasterxml.jackson.jaxrs.annotation.JacksonFeatures
+[WARNING]   - com.fasterxml.jackson.jaxrs.cfg.MapperConfiguratorBase
+[WARNING]   - com.fasterxml.jackson.jaxrs.cfg.ObjectReaderInjector
+[WARNING]   - com.fasterxml.jackson.jaxrs.cfg.ObjectReaderModifier
+[WARNING]   - com.fasterxml.jackson.jaxrs.base.JsonParseExceptionMapper
+[WARNING]   - com.fasterxml.jackson.jaxrs.util.EndpointAsBeanProperty
+[WARNING]   - com.fasterxml.jackson.jaxrs.cfg.JaxRSFeature
+[WARNING]   - com.fasterxml.jackson.jaxrs.cfg.Annotations
+[WARNING]   - com.fasterxml.jackson.jaxrs.base.JsonMappingExceptionMapper
+[WARNING]   - 6 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, antlr-2.7.7.jar define 224 overlappping classes: 
+[WARNING]   - antlr.Version
+[WARNING]   - antlr.CSharpCodeGenerator
+[WARNING]   - antlr.NoViableAltForCharException
+[WARNING]   - antlr.DefaultJavaCodeGeneratorPrintWriterManager
+[WARNING]   - antlr.ZeroOrMoreBlock
+[WARNING]   - antlr.DefineGrammarSymbols
+[WARNING]   - antlr.ANTLRStringBuffer
+[WARNING]   - antlr.CppCharFormatter
+[WARNING]   - antlr.CharLiteralElement
+[WARNING]   - antlr.RuleSymbol
+[WARNING]   - 214 more...
+[WARNING] jboss-logging-annotations-1.2.0.Beta1.jar, asset-application-1.0-SNAPSHOT.jar define 16 overlappping classes: 
+[WARNING]   - org.jboss.logging.annotations.Property
+[WARNING]   - org.jboss.logging.annotations.Message
+[WARNING]   - org.jboss.logging.annotations.Message$Format
+[WARNING]   - org.jboss.logging.annotations.Pos
+[WARNING]   - org.jboss.logging.annotations.MessageLogger
+[WARNING]   - org.jboss.logging.annotations.Param
+[WARNING]   - org.jboss.logging.annotations.LogMessage
+[WARNING]   - org.jboss.logging.annotations.Field
+[WARNING]   - org.jboss.logging.annotations.LoggingClass
+[WARNING]   - org.jboss.logging.annotations.ValidIdRange
+[WARNING]   - 6 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, metrics-servlets-3.1.2.jar define 8 overlappping classes: 
+[WARNING]   - com.codahale.metrics.servlets.MetricsServlet
+[WARNING]   - com.codahale.metrics.servlets.AdminServletContextListener
+[WARNING]   - com.codahale.metrics.servlets.HealthCheckServlet
+[WARNING]   - com.codahale.metrics.servlets.AdminServlet
+[WARNING]   - com.codahale.metrics.servlets.MetricsServlet$ContextListener
+[WARNING]   - com.codahale.metrics.servlets.HealthCheckServlet$ContextListener
+[WARNING]   - com.codahale.metrics.servlets.ThreadDumpServlet
+[WARNING]   - com.codahale.metrics.servlets.PingServlet
+[WARNING] asset-application-1.0-SNAPSHOT.jar, dropwizard-validation-0.9.0.jar define 22 overlappping classes: 
+[WARNING]   - io.dropwizard.validation.MethodValidator
+[WARNING]   - io.dropwizard.validation.MaxDuration
+[WARNING]   - io.dropwizard.validation.SizeRange$List
+[WARNING]   - io.dropwizard.validation.SizeRange
+[WARNING]   - io.dropwizard.validation.MinDurationValidator
+[WARNING]   - io.dropwizard.validation.valuehandling.OptionalValidatedValueUnwrapper
+[WARNING]   - io.dropwizard.validation.Validated
+[WARNING]   - io.dropwizard.validation.MaxSizeValidator
+[WARNING]   - io.dropwizard.validation.ConstraintViolations
+[WARNING]   - io.dropwizard.validation.OneOf
+[WARNING]   - 12 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jersey-apache-connector-2.22.1.jar define 10 overlappping classes: 
+[WARNING]   - org.glassfish.jersey.apache.connector.ApacheConnectorProvider
+[WARNING]   - org.glassfish.jersey.apache.connector.ApacheConnector$2
+[WARNING]   - org.glassfish.jersey.apache.connector.ApacheConnector$1
+[WARNING]   - org.glassfish.jersey.apache.connector.ApacheConnector
+[WARNING]   - org.glassfish.jersey.apache.connector.ApacheConnector$HttpClientConnection
+[WARNING]   - org.glassfish.jersey.apache.connector.ApacheClientProperties
+[WARNING]   - org.glassfish.jersey.apache.connector.ApacheConnector$2$1
+[WARNING]   - org.glassfish.jersey.apache.connector.ApacheConnector$ConnectionFactory
+[WARNING]   - org.glassfish.jersey.apache.connector.ApacheConnector$HttpClientResponseInputStream
+[WARNING]   - org.glassfish.jersey.apache.connector.LocalizationMessages
+[WARNING] asset-application-1.0-SNAPSHOT.jar, annotations-2.0.1.jar define 28 overlappping classes: 
+[WARNING]   - edu.umd.cs.findbugs.annotations.Confidence
+[WARNING]   - edu.umd.cs.findbugs.annotations.CheckReturnValue
+[WARNING]   - edu.umd.cs.findbugs.annotations.DischargesObligation
+[WARNING]   - edu.umd.cs.findbugs.annotations.ExpectWarning
+[WARNING]   - net.jcip.annotations.ThreadSafe
+[WARNING]   - edu.umd.cs.findbugs.annotations.DesireNoWarning
+[WARNING]   - edu.umd.cs.findbugs.annotations.DefaultAnnotationForParameters
+[WARNING]   - edu.umd.cs.findbugs.annotations.DesireWarning
+[WARNING]   - edu.umd.cs.findbugs.annotations.CheckForNull
+[WARNING]   - edu.umd.cs.findbugs.annotations.CleanupObligation
+[WARNING]   - 18 more...
+[WARNING] jackson-dataformat-xml-2.4.5.jar, asset-application-1.0-SNAPSHOT.jar define 45 overlappping classes: 
+[WARNING]   - com.fasterxml.jackson.dataformat.xml.XmlAnnotationIntrospector$Pair
+[WARNING]   - com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializer
+[WARNING]   - com.fasterxml.jackson.dataformat.xml.XmlAnnotationIntrospector
+[WARNING]   - com.fasterxml.jackson.dataformat.xml.util.AnnotationUtil
+[WARNING]   - com.fasterxml.jackson.dataformat.xml.XmlFactory
+[WARNING]   - com.fasterxml.jackson.dataformat.xml.deser.FromXmlParser$1
+[WARNING]   - com.fasterxml.jackson.dataformat.xml.XmlTypeResolverBuilder$1
+[WARNING]   - com.fasterxml.jackson.dataformat.xml.XmlMapper
+[WARNING]   - com.fasterxml.jackson.dataformat.xml.deser.XmlBeanDeserializerModifier
+[WARNING]   - com.fasterxml.jackson.dataformat.xml.ser.XmlBeanSerializerBase
+[WARNING]   - 35 more...
+[WARNING] dropwizard-core-0.9.0.jar, asset-application-1.0-SNAPSHOT.jar define 22 overlappping classes: 
+[WARNING]   - io.dropwizard.setup.AdminEnvironment
+[WARNING]   - io.dropwizard.server.DefaultServerFactory
+[WARNING]   - io.dropwizard.server.AbstractServerFactory
+[WARNING]   - io.dropwizard.cli.EnvironmentCommand
+[WARNING]   - io.dropwizard.ConfiguredBundle
+[WARNING]   - io.dropwizard.server.ServerFactory
+[WARNING]   - io.dropwizard.cli.ServerCommand
+[WARNING]   - io.dropwizard.server.AbstractServerFactory$1
+[WARNING]   - io.dropwizard.cli.Command
+[WARNING]   - io.dropwizard.cli.CheckCommand
+[WARNING]   - 12 more...
+[WARNING] javax.inject-2.4.0-b31.jar, asset-application-1.0-SNAPSHOT.jar define 6 overlappping classes: 
+[WARNING]   - javax.inject.Inject
+[WARNING]   - javax.inject.Singleton
+[WARNING]   - javax.inject.Scope
+[WARNING]   - javax.inject.Named
+[WARNING]   - javax.inject.Provider
+[WARNING]   - javax.inject.Qualifier
+[WARNING] jackson-datatype-jdk7-2.6.3.jar, asset-application-1.0-SNAPSHOT.jar define 3 overlappping classes: 
+[WARNING]   - com.fasterxml.jackson.datatype.jdk7.PackageVersion
+[WARNING]   - com.fasterxml.jackson.datatype.jdk7.Jdk7Module
+[WARNING]   - com.fasterxml.jackson.datatype.jdk7.PathDeserializer
+[WARNING] aopalliance-repackaged-2.4.0-b31.jar, asset-application-1.0-SNAPSHOT.jar define 26 overlappping classes: 
+[WARNING]   - org.aopalliance.reflect.ClassLocator
+[WARNING]   - org.aopalliance.intercept.ConstructorInterceptor
+[WARNING]   - org.aopalliance.reflect.Field
+[WARNING]   - org.aopalliance.intercept.Invocation
+[WARNING]   - org.aopalliance.intercept.FieldAccess
+[WARNING]   - org.aopalliance.aop.AspectException
+[WARNING]   - org.aopalliance.instrument.UndoNotSupportedException
+[WARNING]   - org.aopalliance.intercept.Interceptor
+[WARNING]   - org.aopalliance.intercept.Joinpoint
+[WARNING]   - org.aopalliance.reflect.Code
+[WARNING]   - 16 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, metrics-healthchecks-3.1.2.jar define 6 overlappping classes: 
+[WARNING]   - com.codahale.metrics.health.HealthCheck$Result
+[WARNING]   - com.codahale.metrics.health.jvm.ThreadDeadlockHealthCheck
+[WARNING]   - com.codahale.metrics.health.SharedHealthCheckRegistries
+[WARNING]   - com.codahale.metrics.health.HealthCheckRegistry
+[WARNING]   - com.codahale.metrics.health.HealthCheck
+[WARNING]   - com.codahale.metrics.health.HealthCheckRegistry$1
+[WARNING] asset-application-1.0-SNAPSHOT.jar, usertype.core-4.0.0.GA.jar define 208 overlappping classes: 
+[WARNING]   - org.jadira.usertype.dateandtime.threetenbp.columnmapper.StringColumnMonthMapper
+[WARNING]   - org.jadira.usertype.dateandtime.threetenbp.columnmapper.TimestampColumnInstantMapper
+[WARNING]   - org.jadira.usertype.dateandtime.joda.columnmapper.StringColumnDateTimeZoneMapper
+[WARNING]   - org.jadira.usertype.moneyandcurrency.joda.PersistentBigMoneyMinorAmount
+[WARNING]   - org.jadira.usertype.moneyandcurrency.joda.PersistentBigMoneyMajorAmount
+[WARNING]   - org.jadira.usertype.dateandtime.joda.columnmapper.LongColumnLocalTimeMapper
+[WARNING]   - org.jadira.usertype.dateandtime.joda.columnmapper.TimestampColumnInstantMapper
+[WARNING]   - org.jadira.usertype.dateandtime.joda.PersistentDateTimeZoneWithOffsetAsString
+[WARNING]   - org.jadira.usertype.dateandtime.threetenbp.columnmapper.TimestampColumnZonedDateTimeMapper
+[WARNING]   - org.jadira.usertype.dateandtime.joda.PersistentDateTimeWithZone
+[WARNING]   - 198 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, dropwizard-swagger-0.9.1-1.jar define 7 overlappping classes: 
+[WARNING]   - io.federecio.dropwizard.swagger.SwaggerBundle$1
+[WARNING]   - io.federecio.dropwizard.swagger.Constants
+[WARNING]   - io.federecio.dropwizard.swagger.SwaggerView
+[WARNING]   - io.federecio.dropwizard.swagger.SwaggerResource
+[WARNING]   - io.federecio.dropwizard.swagger.ConfigurationHelper
+[WARNING]   - io.federecio.dropwizard.swagger.SwaggerBundle
+[WARNING]   - io.federecio.dropwizard.swagger.SwaggerBundleConfiguration
+[WARNING] asset-application-1.0-SNAPSHOT.jar, joda-time-2.9.jar define 246 overlappping classes: 
+[WARNING]   - org.joda.time.field.RemainderDateTimeField
+[WARNING]   - org.joda.time.convert.ReadableDurationConverter
+[WARNING]   - org.joda.time.convert.ReadableIntervalConverter
+[WARNING]   - org.joda.time.field.SkipUndoDateTimeField
+[WARNING]   - org.joda.time.format.DateTimeFormatterBuilder$TimeZoneName
+[WARNING]   - org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+[WARNING]   - org.joda.time.chrono.BasicDayOfMonthDateTimeField
+[WARNING]   - org.joda.time.Duration
+[WARNING]   - org.joda.time.field.OffsetDateTimeField
+[WARNING]   - org.joda.time.format.ISODateTimeFormat
+[WARNING]   - 236 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jackson-module-afterburner-2.6.3.jar define 62 overlappping classes: 
+[WARNING]   - com.fasterxml.jackson.module.afterburner.asm.ClassWriter
+[WARNING]   - com.fasterxml.jackson.module.afterburner.deser.CreatorOptimizer
+[WARNING]   - com.fasterxml.jackson.module.afterburner.ser.LongMethodPropertyWriter
+[WARNING]   - com.fasterxml.jackson.module.afterburner.asm.FieldVisitor
+[WARNING]   - com.fasterxml.jackson.module.afterburner.asm.AnnotationWriter
+[WARNING]   - com.fasterxml.jackson.module.afterburner.ser.OptimizedBeanPropertyWriter
+[WARNING]   - com.fasterxml.jackson.module.afterburner.asm.signature.SignatureVisitor
+[WARNING]   - com.fasterxml.jackson.module.afterburner.asm.ClassReader
+[WARNING]   - com.fasterxml.jackson.module.afterburner.asm.TypeReference
+[WARNING]   - com.fasterxml.jackson.module.afterburner.AfterburnerModule
+[WARNING]   - 52 more...
+[WARNING] dropwizard-configuration-0.9.0.jar, asset-application-1.0-SNAPSHOT.jar define 16 overlappping classes: 
+[WARNING]   - io.dropwizard.configuration.SubstitutingSourceProvider
+[WARNING]   - io.dropwizard.configuration.FileConfigurationSourceProvider
+[WARNING]   - io.dropwizard.configuration.ConfigurationValidationException
+[WARNING]   - io.dropwizard.configuration.UndefinedEnvironmentVariableException
+[WARNING]   - io.dropwizard.configuration.EnvironmentVariableSubstitutor
+[WARNING]   - io.dropwizard.configuration.ConfigurationParsingException$Builder
+[WARNING]   - io.dropwizard.configuration.ConfigurationParsingException
+[WARNING]   - io.dropwizard.configuration.ConfigurationSourceProvider
+[WARNING]   - io.dropwizard.configuration.EnvironmentVariableLookup
+[WARNING]   - io.dropwizard.configuration.ConfigurationParsingException$1
+[WARNING]   - 6 more...
+[WARNING] jetty-server-9.2.13.v20150730.jar, asset-application-1.0-SNAPSHOT.jar define 196 overlappping classes: 
+[WARNING]   - org.eclipse.jetty.server.session.JDBCSessionIdManager$SessionTableSchema
+[WARNING]   - org.eclipse.jetty.server.handler.ContextHandler$NoContext
+[WARNING]   - org.eclipse.jetty.server.ServletRequestHttpWrapper
+[WARNING]   - org.eclipse.jetty.server.session.HashSessionManager$Saver
+[WARNING]   - org.eclipse.jetty.server.ShutdownMonitor$1
+[WARNING]   - org.eclipse.jetty.server.HttpInput$1
+[WARNING]   - org.eclipse.jetty.server.UserIdentity$Scope
+[WARNING]   - org.eclipse.jetty.server.AsyncContextState$1
+[WARNING]   - org.eclipse.jetty.server.handler.ScopedHandler
+[WARNING]   - org.eclipse.jetty.server.SessionManager
+[WARNING]   - 186 more...
+[WARNING] hk2-api-2.4.0-b31.jar, asset-application-1.0-SNAPSHOT.jar define 160 overlappping classes: 
+[WARNING]   - org.glassfish.hk2.api.ActiveDescriptor
+[WARNING]   - org.glassfish.hk2.utilities.InjecteeImpl
+[WARNING]   - org.glassfish.hk2.api.Proxiable
+[WARNING]   - org.glassfish.hk2.api.ProxyCtl
+[WARNING]   - org.glassfish.hk2.api.DynamicConfiguration
+[WARNING]   - org.glassfish.hk2.internal.ImmediateHelper$1
+[WARNING]   - org.glassfish.hk2.api.InjectionResolver
+[WARNING]   - org.glassfish.hk2.utilities.ServiceLocatorUtilities$3
+[WARNING]   - org.glassfish.hk2.api.Validator
+[WARNING]   - org.glassfish.hk2.api.PopulatorPostProcessor
+[WARNING]   - 150 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, swagger-jaxrs-1.5.4.jar define 27 overlappping classes: 
+[WARNING]   - io.swagger.jaxrs.config.BeanConfig
+[WARNING]   - io.swagger.jaxrs.config.ReaderConfig
+[WARNING]   - io.swagger.jaxrs.config.DefaultJaxrsScanner
+[WARNING]   - io.swagger.jaxrs.Reader
+[WARNING]   - io.swagger.jaxrs.Reader$ContainerWrapper$1
+[WARNING]   - io.swagger.jaxrs.Reader$ContainerWrapper
+[WARNING]   - io.swagger.jaxrs.json.JacksonJsonProvider
+[WARNING]   - io.swagger.jaxrs.config.DefaultJaxrsConfig
+[WARNING]   - io.swagger.jaxrs.utils.ReaderUtils
+[WARNING]   - io.swagger.jaxrs.config.ReflectiveJaxrsScanner
+[WARNING]   - 17 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jboss-logging-3.2.1.Final.jar define 48 overlappping classes: 
+[WARNING]   - org.jboss.logging.Param
+[WARNING]   - org.jboss.logging.MDC
+[WARNING]   - org.jboss.logging.LogMessage
+[WARNING]   - org.jboss.logging.Log4j2Logger
+[WARNING]   - org.jboss.logging.NDC
+[WARNING]   - org.jboss.logging.Messages$1
+[WARNING]   - org.jboss.logging.Message
+[WARNING]   - org.jboss.logging.LoggerProvider
+[WARNING]   - org.jboss.logging.Logger$Level
+[WARNING]   - org.jboss.logging.Log4jLoggerProvider
+[WARNING]   - 38 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, commons-lang3-3.4.jar define 224 overlappping classes: 
+[WARNING]   - org.apache.commons.lang3.time.StopWatch$State$1
+[WARNING]   - org.apache.commons.lang3.builder.MultilineRecursiveToStringStyle
+[WARNING]   - org.apache.commons.lang3.SerializationUtils
+[WARNING]   - org.apache.commons.lang3.time.FastDatePrinter$TwentyFourHourField
+[WARNING]   - org.apache.commons.lang3.LocaleUtils
+[WARNING]   - org.apache.commons.lang3.concurrent.ConcurrentException
+[WARNING]   - org.apache.commons.lang3.CharRange
+[WARNING]   - org.apache.commons.lang3.builder.IDKey
+[WARNING]   - org.apache.commons.lang3.reflect.TypeUtils
+[WARNING]   - org.apache.commons.lang3.ArrayUtils
+[WARNING]   - 214 more...
+[WARNING] dropwizard-auth-0.9.1.jar, asset-application-1.0-SNAPSHOT.jar define 26 overlappping classes: 
+[WARNING]   - io.dropwizard.auth.AuthFilter
+[WARNING]   - io.dropwizard.auth.PermitAllAuthorizer
+[WARNING]   - io.dropwizard.auth.AuthenticationException
+[WARNING]   - io.dropwizard.auth.Auth
+[WARNING]   - io.dropwizard.auth.AuthValueFactoryProvider$AuthInjectionResolver
+[WARNING]   - io.dropwizard.auth.AuthValueFactoryProvider$PrincipalClassProvider
+[WARNING]   - io.dropwizard.auth.oauth.OAuthCredentialAuthFilter$1
+[WARNING]   - io.dropwizard.auth.basic.BasicCredentialAuthFilter
+[WARNING]   - io.dropwizard.auth.Authorizer
+[WARNING]   - io.dropwizard.auth.AuthDynamicFeature
+[WARNING]   - 16 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jackson-databind-2.6.3.jar define 564 overlappping classes: 
+[WARNING]   - com.fasterxml.jackson.databind.deser.impl.BeanAsArrayBuilderDeserializer
+[WARNING]   - com.fasterxml.jackson.databind.introspect.AnnotatedMethodMap
+[WARNING]   - com.fasterxml.jackson.databind.BeanDescription
+[WARNING]   - com.fasterxml.jackson.databind.SerializerProvider
+[WARNING]   - com.fasterxml.jackson.databind.ser.std.StaticListSerializerBase
+[WARNING]   - com.fasterxml.jackson.databind.ser.std.NumberSerializers$ShortSerializer
+[WARNING]   - com.fasterxml.jackson.databind.ser.BeanSerializerFactory
+[WARNING]   - com.fasterxml.jackson.databind.jsonFormatVisitors.JsonMapFormatVisitor
+[WARNING]   - com.fasterxml.jackson.databind.jsonFormatVisitors.JsonFormatTypes
+[WARNING]   - com.fasterxml.jackson.databind.deser.impl.MethodProperty
+[WARNING]   - 554 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, metrics-jvm-3.1.2.jar define 38 overlappping classes: 
+[WARNING]   - com.codahale.metrics.jvm.MemoryUsageGaugeSet$15
+[WARNING]   - com.codahale.metrics.jvm.MemoryUsageGaugeSet$3
+[WARNING]   - com.codahale.metrics.jvm.CachedThreadStatesGaugeSet
+[WARNING]   - com.codahale.metrics.jvm.MemoryUsageGaugeSet
+[WARNING]   - com.codahale.metrics.jvm.ClassLoadingGaugeSet$1
+[WARNING]   - com.codahale.metrics.jvm.MemoryUsageGaugeSet$8
+[WARNING]   - com.codahale.metrics.jvm.MemoryUsageGaugeSet$5
+[WARNING]   - com.codahale.metrics.jvm.BufferPoolMetricSet
+[WARNING]   - com.codahale.metrics.jvm.ThreadStatesGaugeSet
+[WARNING]   - com.codahale.metrics.jvm.MemoryUsageGaugeSet$10
+[WARNING]   - 28 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jboss-transaction-api_1.2_spec-1.0.0.Final.jar define 22 overlappping classes: 
+[WARNING]   - javax.transaction.UserTransaction
+[WARNING]   - javax.transaction.Status
+[WARNING]   - javax.transaction.TransactionRequiredException
+[WARNING]   - javax.transaction.xa.XAResource
+[WARNING]   - javax.transaction.Transaction
+[WARNING]   - javax.transaction.TransactionalException
+[WARNING]   - javax.transaction.TransactionScoped
+[WARNING]   - javax.transaction.InvalidTransactionException
+[WARNING]   - javax.transaction.SystemException
+[WARNING]   - javax.transaction.HeuristicCommitException
+[WARNING]   - 12 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jandex-1.1.0.Final.jar define 44 overlappping classes: 
+[WARNING]   - org.jboss.jandex.AnnotationValue$CharacterValue
+[WARNING]   - org.jboss.jandex.AnnotationValue$EnumValue
+[WARNING]   - org.jboss.jandex.IndexReader
+[WARNING]   - org.jboss.jandex.JandexAntTask
+[WARNING]   - org.jboss.jandex.AnnotationTarget
+[WARNING]   - org.jboss.jandex.AnnotationValue$ByteValue
+[WARNING]   - org.jboss.jandex.CompositeIndex
+[WARNING]   - org.jboss.jandex.StrongInternPool$Index
+[WARNING]   - org.jboss.jandex.IndexView
+[WARNING]   - org.jboss.jandex.Indexer$IntegerHolder
+[WARNING]   - 34 more...
+[WARNING] dropwizard-hibernate-0.9.0.jar, asset-application-1.0-SNAPSHOT.jar define 10 overlappping classes: 
+[WARNING]   - io.dropwizard.hibernate.ScanningHibernateBundle
+[WARNING]   - io.dropwizard.hibernate.SessionFactoryHealthCheck
+[WARNING]   - io.dropwizard.hibernate.HibernateBundle
+[WARNING]   - io.dropwizard.hibernate.SessionFactoryManager
+[WARNING]   - io.dropwizard.hibernate.UnitOfWorkApplicationListener
+[WARNING]   - io.dropwizard.hibernate.SessionFactoryFactory
+[WARNING]   - io.dropwizard.hibernate.UnitOfWork
+[WARNING]   - io.dropwizard.hibernate.UnitOfWorkApplicationListener$UnitOfWorkEventListener
+[WARNING]   - io.dropwizard.hibernate.AbstractDAO
+[WARNING]   - io.dropwizard.hibernate.SessionFactoryHealthCheck$1
+[WARNING] jersey-container-servlet-2.22.1.jar, asset-application-1.0-SNAPSHOT.jar define 5 overlappping classes: 
+[WARNING]   - org.glassfish.jersey.servlet.async.AsyncContextDelegateProviderImpl
+[WARNING]   - org.glassfish.jersey.servlet.async.AsyncContextDelegateProviderImpl$ExtensionImpl
+[WARNING]   - org.glassfish.jersey.servlet.init.JerseyServletContainerInitializer
+[WARNING]   - org.glassfish.jersey.servlet.async.AsyncContextDelegateProviderImpl$1
+[WARNING]   - org.glassfish.jersey.servlet.init.internal.LocalizationMessages
+[WARNING] asset-application-1.0-SNAPSHOT.jar, dropwizard-jetty-0.9.0.jar define 20 overlappping classes: 
+[WARNING]   - io.dropwizard.jetty.BiDiGzipFilter$WrappedServletInputStream
+[WARNING]   - io.dropwizard.jetty.ConnectorFactory
+[WARNING]   - io.dropwizard.jetty.RequestLogFactory$1
+[WARNING]   - io.dropwizard.jetty.setup.ServletEnvironment
+[WARNING]   - io.dropwizard.jetty.NonblockingServletHolder
+[WARNING]   - io.dropwizard.jetty.RequestLogFactory$RequestLogLayout
+[WARNING]   - io.dropwizard.jetty.Slf4jRequestLog
+[WARNING]   - io.dropwizard.jetty.BiDiGzipFilter$WrappedServletRequest
+[WARNING]   - io.dropwizard.jetty.GzipFilterFactory
+[WARNING]   - io.dropwizard.jetty.HttpsConnectorFactory
+[WARNING]   - 10 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jackson-datatype-hibernate4-2.6.3.jar define 9 overlappping classes: 
+[WARNING]   - com.fasterxml.jackson.datatype.hibernate4.ModuleVersion
+[WARNING]   - com.fasterxml.jackson.datatype.hibernate4.HibernateAnnotationIntrospector
+[WARNING]   - com.fasterxml.jackson.datatype.hibernate4.PersistentCollectionSerializer
+[WARNING]   - com.fasterxml.jackson.datatype.hibernate4.HibernateProxySerializer
+[WARNING]   - com.fasterxml.jackson.datatype.hibernate4.Hibernate4Module$Feature
+[WARNING]   - com.fasterxml.jackson.datatype.hibernate4.Hibernate4Module
+[WARNING]   - com.fasterxml.jackson.datatype.hibernate4.HibernateSerializers
+[WARNING]   - com.fasterxml.jackson.datatype.hibernate4.HibernateSerializerModifier
+[WARNING]   - com.fasterxml.jackson.datatype.hibernate4.PackageVersion
+[WARNING] asset-application-1.0-SNAPSHOT.jar, validation-api-1.1.0.Final.jar define 106 overlappping classes: 
+[WARNING]   - javax.validation.ConstraintDeclarationException
+[WARNING]   - javax.validation.GroupDefinitionException
+[WARNING]   - javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder$LeafNodeBuilderDefinedContext
+[WARNING]   - javax.validation.metadata.ParameterDescriptor
+[WARNING]   - javax.validation.Validator
+[WARNING]   - javax.validation.ConstraintValidatorContext$ConstraintViolationBuilder
+[WARNING]   - javax.validation.constraints.AssertTrue$List
+[WARNING]   - javax.validation.constraints.Past
+[WARNING]   - javax.validation.metadata.GroupConversionDescriptor
+[WARNING]   - javax.validation.constraints.Max
+[WARNING]   - 96 more...
+[WARNING] usertype.spi-4.0.0.GA.jar, asset-application-1.0-SNAPSHOT.jar define 65 overlappping classes: 
+[WARNING]   - org.jadira.usertype.spi.shared.AbstractUserTypeHibernateIntegrator
+[WARNING]   - org.jadira.usertype.spi.repository.SearchRepository
+[WARNING]   - org.jadira.usertype.spi.shared.descriptor.sql.DstSafeTimeTypeDescriptor
+[WARNING]   - org.jadira.usertype.spi.shared.descriptor.sql.DstSafeDateTypeDescriptor$1
+[WARNING]   - org.jadira.usertype.spi.utils.reflection.ArrayUtils
+[WARNING]   - org.jadira.usertype.spi.utils.reflection.ReflectionUtils
+[WARNING]   - org.jadira.usertype.spi.shared.Jdbc42Configured
+[WARNING]   - org.jadira.usertype.spi.shared.AbstractVersionableTimestampColumnMapper
+[WARNING]   - org.jadira.usertype.spi.utils.lang.StringUtils
+[WARNING]   - org.jadira.usertype.spi.shared.JavaZoneConfigured
+[WARNING]   - 55 more...
+[WARNING] jersey-server-2.22.1.jar, asset-application-1.0-SNAPSHOT.jar define 665 overlappping classes: 
+[WARNING]   - org.glassfish.jersey.server.internal.inject.ParamConverters$TypeFromString
+[WARNING]   - org.glassfish.jersey.server.internal.inject.ParamInjectionResolver
+[WARNING]   - org.glassfish.jersey.server.internal.inject.QueryParamValueFactoryProvider
+[WARNING]   - org.glassfish.jersey.server.internal.InternalServerProperties
+[WARNING]   - org.glassfish.jersey.server.internal.inject.ParameterInjectionBinder$5
+[WARNING]   - org.glassfish.jersey.server.internal.RuntimeDelegateImpl
+[WARNING]   - org.glassfish.jersey.server.internal.inject.ParamConverterFactory
+[WARNING]   - jersey.repackaged.org.objectweb.asm.FieldWriter
+[WARNING]   - org.glassfish.jersey.server.internal.monitoring.RequestEventImpl$Builder
+[WARNING]   - org.glassfish.jersey.server.internal.JerseyRequestTimeoutHandler$1
+[WARNING]   - 655 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jetty-continuation-9.2.13.v20150730.jar define 8 overlappping classes: 
+[WARNING]   - org.eclipse.jetty.continuation.ContinuationFilter
+[WARNING]   - org.eclipse.jetty.continuation.FauxContinuation
+[WARNING]   - org.eclipse.jetty.continuation.Continuation
+[WARNING]   - org.eclipse.jetty.continuation.ContinuationListener
+[WARNING]   - org.eclipse.jetty.continuation.Servlet3Continuation
+[WARNING]   - org.eclipse.jetty.continuation.ContinuationSupport
+[WARNING]   - org.eclipse.jetty.continuation.ContinuationThrowable
+[WARNING]   - org.eclipse.jetty.continuation.ContinuationFilter$FilteredContinuation
+[WARNING] dropwizard-assets-0.9.1.jar, asset-application-1.0-SNAPSHOT.jar define 1 overlappping classes: 
+[WARNING]   - io.dropwizard.assets.AssetsBundle
+[WARNING] freemarker-2.3.23.jar, asset-application-1.0-SNAPSHOT.jar define 971 overlappping classes: 
+[WARNING]   - freemarker.cache.TemplateLoader
+[WARNING]   - freemarker.ext.rhino.RhinoWrapper
+[WARNING]   - freemarker.core.BuiltInsForStringsBasic$substringBI$1
+[WARNING]   - freemarker.ext.beans.HashAdapter$1$1
+[WARNING]   - freemarker.core.DebugBreak
+[WARNING]   - freemarker.core.ArithmeticExpression
+[WARNING]   - freemarker.core.BuiltInsForStringsRegexp$replace_reBI
+[WARNING]   - freemarker.template.Configuration$DefaultSoftCacheStorage
+[WARNING]   - freemarker.core.BuiltInsForStringsEncoding$rtfBI
+[WARNING]   - freemarker.ext.jdom.NodeListModel$NamespaceUriOp
+[WARNING]   - 961 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jackson-dataformat-yaml-2.6.3.jar define 210 overlappping classes: 
+[WARNING]   - com.fasterxml.jackson.dataformat.yaml.snakeyaml.parser.ParserImpl$ParseFlowMappingValue
+[WARNING]   - com.fasterxml.jackson.dataformat.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlSeq
+[WARNING]   - com.fasterxml.jackson.dataformat.yaml.snakeyaml.emitter.EmitterException
+[WARNING]   - com.fasterxml.jackson.dataformat.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlTimestamp
+[WARNING]   - com.fasterxml.jackson.dataformat.yaml.snakeyaml.tokens.Token$ID
+[WARNING]   - com.fasterxml.jackson.dataformat.yaml.UTF8Reader
+[WARNING]   - com.fasterxml.jackson.dataformat.yaml.snakeyaml.tokens.TagTuple
+[WARNING]   - com.fasterxml.jackson.dataformat.yaml.snakeyaml.events.DocumentStartEvent
+[WARNING]   - com.fasterxml.jackson.dataformat.yaml.snakeyaml.emitter.Emitter$ExpectBlockMappingSimpleValue
+[WARNING]   - com.fasterxml.jackson.dataformat.yaml.snakeyaml.tokens.StreamStartToken
+[WARNING]   - 200 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, mimepull-1.9.6.jar define 45 overlappping classes: 
+[WARNING]   - org.jvnet.mimepull.FileData
+[WARNING]   - org.jvnet.mimepull.ASCIIUtility
+[WARNING]   - org.jvnet.mimepull.FinalArrayList
+[WARNING]   - org.jvnet.mimepull.BASE64DecoderStream
+[WARNING]   - org.jvnet.mimepull.MIMEParser$1
+[WARNING]   - org.jvnet.mimepull.InternetHeaders
+[WARNING]   - org.jvnet.mimepull.MIMEPart
+[WARNING]   - org.jvnet.mimepull.MIMEMessage$1
+[WARNING]   - org.jvnet.mimepull.DataHead$ReadMultiStream
+[WARNING]   - org.jvnet.mimepull.WeakDataFile
+[WARNING]   - 35 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, jetty-security-9.2.13.v20150730.jar define 57 overlappping classes: 
+[WARNING]   - org.eclipse.jetty.security.MappedLoginService
+[WARNING]   - org.eclipse.jetty.security.PropertyUserStore$2
+[WARNING]   - org.eclipse.jetty.security.SpnegoUserPrincipal
+[WARNING]   - org.eclipse.jetty.security.authentication.DigestAuthenticator
+[WARNING]   - org.eclipse.jetty.security.UserDataConstraint
+[WARNING]   - org.eclipse.jetty.security.PropertyUserStore$UserListener
+[WARNING]   - org.eclipse.jetty.security.authentication.FormAuthenticator
+[WARNING]   - org.eclipse.jetty.security.UserAuthentication
+[WARNING]   - org.eclipse.jetty.security.MappedLoginService$Anonymous
+[WARNING]   - org.eclipse.jetty.security.DefaultAuthenticatorFactory
+[WARNING]   - 47 more...
+[WARNING] hibernate-commons-annotations-4.0.5.Final.jar, asset-application-1.0-SNAPSHOT.jar define 67 overlappping classes: 
+[WARNING]   - org.hibernate.annotations.common.util.impl.LoggerFactory
+[WARNING]   - org.hibernate.annotations.common.reflection.XAnnotatedElement
+[WARNING]   - org.hibernate.annotations.common.util.impl.Log_$logger
+[WARNING]   - org.hibernate.annotations.common.reflection.java.JavaReflectionManager$2
+[WARNING]   - org.hibernate.annotations.common.reflection.java.generics.ApproximatingTypeEnvironment$1
+[WARNING]   - org.hibernate.annotations.common.reflection.java.JavaXMember
+[WARNING]   - org.hibernate.annotations.common.reflection.Filter
+[WARNING]   - org.hibernate.annotations.common.reflection.java.JavaReflectionManager$TypeKey
+[WARNING]   - org.hibernate.annotations.common.reflection.java.generics.TypeEnvironmentFactory$1
+[WARNING]   - org.hibernate.annotations.common.reflection.java.generics.TypeUtils$2
+[WARNING]   - 57 more...
+[WARNING] dropwizard-db-0.9.0.jar, asset-application-1.0-SNAPSHOT.jar define 11 overlappping classes: 
+[WARNING]   - io.dropwizard.db.TimeBoundHealthCheck
+[WARNING]   - io.dropwizard.db.ManagedPooledDataSource$2
+[WARNING]   - io.dropwizard.db.DataSourceFactory$TransactionIsolation
+[WARNING]   - io.dropwizard.db.ManagedPooledDataSource$3
+[WARNING]   - io.dropwizard.db.ManagedDataSource
+[WARNING]   - io.dropwizard.db.DatabaseConfiguration
+[WARNING]   - io.dropwizard.db.DataSourceFactory
+[WARNING]   - io.dropwizard.db.ManagedPooledDataSource$4
+[WARNING]   - io.dropwizard.db.ManagedPooledDataSource
+[WARNING]   - io.dropwizard.db.PooledDataSourceFactory
+[WARNING]   - 1 more...
+[WARNING] jsr305-3.0.1.jar, asset-application-1.0-SNAPSHOT.jar define 1 overlappping classes: 
+[WARNING]   - javax.annotation.ParametersAreNullableByDefault
+[WARNING] commons-codec-1.9.jar, asset-application-1.0-SNAPSHOT.jar define 85 overlappping classes: 
+[WARNING]   - org.apache.commons.codec.language.Nysiis
+[WARNING]   - org.apache.commons.codec.language.bm.Rule$1
+[WARNING]   - org.apache.commons.codec.language.bm.Rule$RPattern
+[WARNING]   - org.apache.commons.codec.language.ColognePhonetic$CologneInputBuffer
+[WARNING]   - org.apache.commons.codec.language.bm.BeiderMorseEncoder
+[WARNING]   - org.apache.commons.codec.digest.UnixCrypt
+[WARNING]   - org.apache.commons.codec.language.Soundex
+[WARNING]   - org.apache.commons.codec.binary.BinaryCodec
+[WARNING]   - org.apache.commons.codec.language.bm.Languages$1
+[WARNING]   - org.apache.commons.codec.language.bm.PhoneticEngine$1
+[WARNING]   - 75 more...
+[WARNING] asset-application-1.0-SNAPSHOT.jar, classmate-1.1.0.jar define 37 overlappping classes: 
+[WARNING]   - com.fasterxml.classmate.util.ResolvedTypeCache
+[WARNING]   - com.fasterxml.classmate.AnnotationConfiguration$StdConfiguration
+[WARNING]   - com.fasterxml.classmate.AnnotationOverrides$StdImpl
+[WARNING]   - com.fasterxml.classmate.AnnotationInclusion
+[WARNING]   - com.fasterxml.classmate.AnnotationOverrides
+[WARNING]   - com.fasterxml.classmate.types.ResolvedObjectType
+[WARNING]   - com.fasterxml.classmate.MemberResolver
+[WARNING]   - com.fasterxml.classmate.members.ResolvedConstructor
+[WARNING]   - com.fasterxml.classmate.members.RawField
+[WARNING]   - com.fasterxml.classmate.TypeResolver$ClassStack
+[WARNING]   - 27 more...
+[WARNING] maven-shade-plugin has detected that some .class files
+[WARNING] are present in two or more JARs. When this happens, only
+[WARNING] one single version of the class is copied in the uberjar.
+[WARNING] Usually this is not harmful and you can skeep these
+[WARNING] warnings, otherwise try to manually exclude artifacts
+[WARNING] based on mvn dependency:tree -Ddetail=true and the above
+[WARNING] output
+[WARNING] See http://docs.codehaus.org/display/MAVENUSER/Shade+Plugin
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /Users/PerSpilling/workspace/my-projects/dropwizard-swagger-example/asset-application/target/asset-application-1.0-SNAPSHOT.jar with /Users/PerSpilling/workspace/my-projects/dropwizard-swagger-example/asset-application/target/asset-application-1.0-SNAPSHOT-shaded.jar
+[INFO] Dependency-reduced POM written at: /Users/PerSpilling/workspace/my-projects/dropwizard-swagger-example/asset-application/dependency-reduced-pom.xml
+[INFO] Dependency-reduced POM written at: /Users/PerSpilling/workspace/my-projects/dropwizard-swagger-example/asset-application/dependency-reduced-pom.xml
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.808 s
+[INFO] Finished at: 2015-11-28T16:02:44+01:00
+[INFO] Final Memory: 63M/705M
+[INFO] ------------------------------------------------------------------------
