@@ -25,11 +25,11 @@
         <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
         <targetJdk>1.8</targetJdk>
         <java.version>1.8</java.version>
-        <dropwizard.version>0.9.0</dropwizard.version>
-        <jackson-annotations.version>2.6.0</jackson-annotations.version>
+        <dropwizard.version>1.0.5</dropwizard.version>
+        <jackson-annotations.version>2.7.8</jackson-annotations.version>
         <hibernate-validator.version>5.2.2.Final</hibernate-validator.version>
-        <postgresql.version>9.1-901.jdbc4</postgresql.version>
-        <swagger.version>1.5.4</swagger.version>
+        <swagger.version>1.5.10</swagger.version>
+        <dropwizard-swagger.version>1.0.0-1</dropwizard-swagger.version>
         <postgresql.version>9.4-1201-jdbc4</postgresql.version>
 
     </properties>
@@ -94,16 +94,21 @@
                 <version>${hibernate-validator.version}</version>
             </dependency>
 
-            <!--<dependency>-->
-                <!--<groupId>io.swagger</groupId>-->
-                <!--<artifactId>swagger-jersey2-jaxrs</artifactId>-->
-                <!--<version>${swagger.version}</version>-->
-            <!--</dependency>-->
+            <dependency>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-core</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.swagger</groupId>
+                <artifactId>swagger-jersey2-jaxrs</artifactId>
+                <version>${swagger.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.smoketurner</groupId>
                 <artifactId>dropwizard-swagger</artifactId>
-                <version>0.9.1-1</version>
+                <version>${dropwizard-swagger.version}</version>
             </dependency>
 
             <dependency>

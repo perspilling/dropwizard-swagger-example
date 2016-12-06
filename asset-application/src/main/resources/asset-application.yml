@@ -1,5 +1,5 @@
 #
-# See reference manual: http://www.dropwizard.io/0.9.1/docs/manual/configuration.html
+# See reference manual: http://www.dropwizard.io/1.0.5/docs/manual/configuration.html
 #
 template: Hello, %s!
 defaultName: Stranger

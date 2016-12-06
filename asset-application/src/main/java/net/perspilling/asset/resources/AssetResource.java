@@ -4,6 +4,10 @@ import com.codahale.metrics.annotation.Timed;
 import io.dropwizard.hibernate.UnitOfWork;
 import io.dropwizard.jersey.params.LongParam;
 import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
 import net.perspilling.asset.api.Asset;
 import net.perspilling.asset.core.AssetEntity;
 import net.perspilling.asset.db.AssetDao;
@@ -38,10 +42,15 @@ public class AssetResource {
     @GET @Path("/{id}")
     @UnitOfWork
     @Timed
-    public Asset findById(@PathParam("id") LongParam id) {
+    @ApiResponses(value = {
+            @ApiResponse(code = 200, message = "Successful retrieval of asset", response = Asset.class),
+            @ApiResponse(code = 404, message = "Asset with given id not found"),
+            @ApiResponse(code = 500, message = "Internal server error")}
+    )
+    public Asset findById(@ApiParam(value = "ID number (long)", required = true) @Valid @PathParam("id") LongParam id) {
         AssetEntity assetEntity = assetDao.findById(id.get());
         if (assetEntity == null) {
-            throw new NotFoundException("No such asset");
+            throw new NotFoundException("Asset with given id not found");
         }
         return AssetMapper.mapToAsset(assetEntity);
     }
@@ -49,7 +58,11 @@ public class AssetResource {
     @POST
     @UnitOfWork
     @Timed
-    public Asset save(@Valid Asset asset) {
+    @ApiOperation(
+            value = "Save an Asset to the DB. The provided asset will replace an existing asset with the same id, if found.",
+            response = Asset.class
+    )
+    public Asset save(@ApiParam(required = true) @Valid Asset asset) {
         return AssetMapper.mapToAsset(assetDao.save(
                 new AssetEntity(asset.getId(), asset.getSerialNumber(), asset.getModelName(), AddressMapper.mapToAddressEntity(asset.getAddress()))));
     }
@@ -63,7 +76,7 @@ public class AssetResource {
 
     @DELETE @Path("/{id}")
     @UnitOfWork
-    public void delete(@PathParam("id") LongParam id) {
+    public void delete(@ApiParam(value = "ID number (long)", required = true) @Valid @PathParam("id") LongParam id) {
         assetDao.delete(id.get());
     }
 }

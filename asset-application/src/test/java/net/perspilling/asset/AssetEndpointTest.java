@@ -89,7 +89,7 @@ public class AssetEndpointTest {
         Asset asset = new Asset("012345678901", "Model101", null);
         Response postResponse = assetEndpoint().request().post(Entity.json(asset));
 
-        assertThat(postResponse.getStatus()).isEqualTo(422); // 422 = Unprocessable Entity
+        assertThat(postResponse.getStatus()).isEqualTo(422); // Unprocessable Entity
 
         ValidationErrorMessage msg = postResponse.readEntity(ValidationErrorMessage.class);
         assertThat(msg.getErrors()).contains("serialNumber size must be between 4 and 10");
@@ -97,7 +97,7 @@ public class AssetEndpointTest {
         asset = new Asset("123", "Model101", null);
         postResponse = assetEndpoint().request().post(Entity.json(asset));
 
-        assertThat(postResponse.getStatus()).isEqualTo(422);
+        assertThat(postResponse.getStatus()).isEqualTo(422); // Unprocessable Entity
 
         msg = postResponse.readEntity(ValidationErrorMessage.class);
         assertThat(msg.getErrors()).contains("serialNumber size must be between 4 and 10");
@@ -108,6 +108,15 @@ public class AssetEndpointTest {
         Long id = 1L;
         Asset asset = assetEndpoint().path(id.toString()).request().get().readEntity(Asset.class);
         assertThat(asset).isNotNull();
+    }
+
+    @Test
+    public void assetGetWithIllegalIdValue() {
+        String id = "abc";
+        Response response = assetEndpoint().path(id).request().get();
+        assertThat(response.getStatus()).isEqualTo(400); // bad request
+        ValidationErrorMessage msg = response.readEntity(ValidationErrorMessage.class);
+        assertThat(msg.getErrors()).contains("serialNumber size must be between 4 and 10");
     }
 
     @Test

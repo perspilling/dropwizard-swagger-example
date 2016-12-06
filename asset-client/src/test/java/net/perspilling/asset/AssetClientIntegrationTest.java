@@ -10,16 +10,15 @@ import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.Entity;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.GenericType;
-import javax.ws.rs.core.MediaType;
 import java.util.List;
 import java.util.UUID;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-import static org.assertj.core.api.Assertions.assertThat;
 
 /**
- * This test requires that the asset-service has been started. See the README.md file in the project root
+ * This test requires that the asset-application has been started. See the README.md file in the project root
  * directory on how to do that.
  */
 public class AssetClientIntegrationTest {

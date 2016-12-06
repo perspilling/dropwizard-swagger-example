@@ -1,6 +1,7 @@
 package net.perspilling.asset.api;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import io.swagger.annotations.ApiModel;
 import org.hibernate.validator.constraints.Length;
 
 import java.util.Objects;
@@ -8,14 +9,23 @@ import java.util.Objects;
 /**
  * @author Per Spilling
  */
+@ApiModel
 public class Address {
 
+    @JsonProperty
+    @Length(max = 40)
     private String streetName;
 
+    @JsonProperty
+    @Length(max = 8)
     private String houseNumber;
 
+    @JsonProperty
+    @Length(max = 8)
     private String postCode;
 
+    @JsonProperty
+    @Length(max = 40)
     private String areaName;
 
     public Address() {
@@ -29,26 +39,18 @@ public class Address {
         this.areaName = areaName;
     }
 
-    @JsonProperty
-    @Length(max = 40)
     public String getStreetName() {
         return streetName;
     }
 
-    @JsonProperty
-    @Length(max = 8)
     public String getHouseNumber() {
         return houseNumber;
     }
 
-    @JsonProperty
-    @Length(max = 8)
     public String getPostCode() {
         return postCode;
     }
 
-    @JsonProperty
-    @Length(max = 40)
     public String getAreaName() {
         return areaName;
     }

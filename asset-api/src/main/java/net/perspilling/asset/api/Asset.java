@@ -1,6 +1,8 @@
 package net.perspilling.asset.api;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
 
@@ -12,17 +14,21 @@ import java.util.Objects;
  *
  * @author Per Spilling
  */
+@ApiModel
 public class Asset {
     private Long id;
 
     @Size(min = 4, max = 10)
     @NotEmpty   // may not be null or blank
+    @ApiModelProperty(required = true, value = "The serialnumber of the asset.")
     private String serialNumber;
 
     @Length(max = 50)
     @NotEmpty
+    @ApiModelProperty(required = true, value = "The model name of the asset.")
     private String modelName;
 
+    @ApiModelProperty(required = false, value = "The address where the asset is installed.")
     private Address address;
 
     public Asset() {

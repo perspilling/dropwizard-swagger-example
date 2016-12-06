@@ -19,7 +19,7 @@ public class HelloWorldResourceTest {
     public void setup() {
         // Before each test, we re-instantiate our resource so it will reset
         // the counter. It is good practice when dealing with a class that
-        // contains mutable data to reset it so tests can be ran independently
+        // contains mutable data to reset it so tests can run independently
         // of each other.
         resource = new HelloWorldResource("Hello, %s", "Stranger");
     }
