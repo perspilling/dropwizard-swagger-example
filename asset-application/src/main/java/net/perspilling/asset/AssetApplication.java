@@ -28,7 +28,10 @@ import java.sql.Connection;
 /**
  * This main-class will be used by the start_server.sh script to start the server. It can also be
  * started up in the IDE, just remember to set the correct working directory and provide the expected
- * parameters: server asset-application.yml
+ * parameters:
+ *
+ * Working directory: dropwizard-swagger-example/asset-application
+ * Program arguments: server asset-application.yml
  *
  * @author Per Spilling
  */
