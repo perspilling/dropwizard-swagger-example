@@ -37,7 +37,7 @@
         <jackson-annotations.version>2.10.1</jackson-annotations.version>
         <hibernate-validator.version>5.2.2.Final</hibernate-validator.version>
 
-        <postgresql.version>9.4-1201-jdbc4</postgresql.version>
+        <postgresql.version>42.2.25</postgresql.version>
 
     </properties>
 
