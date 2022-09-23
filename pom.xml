@@ -35,7 +35,7 @@
         <swagger.version>1.5.22</swagger.version>
 
         <jackson-annotations.version>2.10.1</jackson-annotations.version>
-        <hibernate-validator.version>5.2.2.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.0.23.Final</hibernate-validator.version>
 
         <postgresql.version>42.3.7</postgresql.version>
 
